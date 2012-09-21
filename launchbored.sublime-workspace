@@ -272,10 +272,56 @@
 	"buffers":
 	[
 		{
+			"contents": "{\n    // The tab key will cycle through the settings when first created\n    // Visit http://wbond.net/sublime_packages/sftp/settings for help\n    \n    // sftp, ftp or ftps\n    \"type\": \"ftp\",\n\n    \"save_before_upload\": false,\n    \"upload_on_save\": true,\n    \"sync_down_on_open\": false,\n    \"sync_skip_deletes\": false,\n    \"confirm_downloads\": false,\n    \"confirm_sync\": true,\n    \"confirm_overwrite_newer\": false,\n    \n    \"host\": \"launchbored.com\",\n    \"user\": \"launchbo\",\n    \"password\": \"boredom3\",\n    //\"port\": \"22\",\n    \n    \"remote_path\": \"/www/\",\n    \"ignore_regexes\": [\n        \"\\\\.sublime-(project|workspace)\", \"sftp-config(-alt\\\\d?)?\\\\.json\",\n        \"sftp-settings\\\\.json\", \"/venv/\", \"\\\\.svn\", \"\\\\.hg\", \"\\\\.git\",\n        \"\\\\.bzr\", \"_darcs\", \"CVS\", \"\\\\.DS_Store\", \"Thumbs\\\\.db\", \"desktop\\\\.ini\"\n    ],\n    //\"file_permissions\": \"664\",\n    //\"dir_permissions\": \"775\",\n    \n    //\"extra_list_connections\": 0,\n\n    \"connect_timeout\": 30,\n    //\"keepalive\": 120,\n    //\"ftp_passive_mode\": true,\n    //\"ssh_key_file\": \"~/.ssh/id_rsa\",\n    //\"sftp_flags\": [\"-F\", \"/path/to/ssh_config\"],\n    \n    //\"preserve_modification_times\": false,\n    //\"remote_time_offset_in_hours\": 0,\n    //\"remote_encoding\": \"utf-8\",\n    //\"remote_locale\": \"C\",\n}",
 			"file": "sftp-config.json",
+			"file_size": 1284,
+			"file_write_time": 129927170205723026,
 			"settings":
 			{
-				"buffer_size": 1242,
+				"buffer_size": 1243,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "sftp-config.json\n*.zip\n*.gz\nlog/*.log\nlog/*.log.[0-9]\ninc/constants.php\nlaunchbored.sublime-project\nlaunchbored.sublime-workspace",
+			"file": ".gitignore",
+			"file_size": 76,
+			"file_write_time": 129927174667691100,
+			"settings":
+			{
+				"buffer_size": 129,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "testmysql.php",
+			"settings":
+			{
+				"buffer_size": 173,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_vti_txt/.htaccess",
+			"settings":
+			{
+				"buffer_size": 245,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/connection.php",
+			"settings":
+			{
+				"buffer_size": 326,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/constants.php",
+			"settings":
+			{
+				"buffer_size": 145,
 				"line_ending": "Windows"
 			}
 		},
@@ -283,7 +329,7 @@
 			"file": "inc/header.php",
 			"settings":
 			{
-				"buffer_size": 4667,
+				"buffer_size": 5088,
 				"line_ending": "Windows"
 			}
 		},
@@ -296,19 +342,12 @@
 			}
 		},
 		{
-			"file": "index.php",
+			"file": "/C/Users/Mic/.bash_profile",
 			"settings":
 			{
-				"buffer_size": 3788,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "isotope.php.bak.php",
-			"settings":
-			{
-				"buffer_size": 2061,
-				"line_ending": "Windows"
+				"buffer_size": 37,
+				"line_ending": "Windows",
+				"name": "export PS1='\\w$(__git_ps1 \"(%s)\">'"
 			}
 		}
 	],
@@ -360,12 +399,14 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Mic/Dropbox/Business/Web Development/www/bored/.gitignore",
+		"/C/Users/Mic/Dropbox/Business/Web Development/www/bored/index.php",
+		"/C/Users/Mic/Dropbox/Business/Web Development/www/bored/isotope.php.bak.php",
 		"/C/Users/Mic/Dropbox/Business/Web Development/www/bored/inc/footer2.php",
 		"/C/Users/Mic/Dropbox/Business/Web Development/www/bored/isotope.php",
 		"/C/Users/Mic/Dropbox/Business/Web Development/www/school_project/school_project.sublime-project",
 		"/C/Users/Mic/Desktop/feafeaa3eceb3af2de6fdeca99150b3a.spc",
 		"/C/Users/Mic/Dropbox/Business/Clients/Launchored/size by content.txt",
-		"/C/Users/Mic/Dropbox/Business/Web Development/www/bored/index.php",
 		"/C/Users/Mic/Dropbox/Business/Web Development/www/bored/sftp-config.json",
 		"/C/Users/Mic/Dropbox/Business/Web Development/www/school_project/sftp-config.json",
 		"/C/Users/Mic/Dropbox/Business/Web Development/www/rodtree/rodtree.sublime-project",
@@ -621,7 +662,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -629,15 +670,15 @@
 					"file": "sftp-config.json",
 					"settings":
 					{
-						"buffer_size": 1242,
+						"buffer_size": 1243,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								550,
-								550
+								316,
+								316
 							]
 						],
 						"settings":
@@ -657,18 +698,160 @@
 				},
 				{
 					"buffer": 1,
-					"file": "inc/header.php",
+					"file": ".gitignore",
 					"settings":
 					{
-						"buffer_size": 4667,
+						"buffer_size": 129,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								540,
-								540
+								129,
+								129
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "testmysql.php",
+					"settings":
+					{
+						"buffer_size": 173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_vti_txt/.htaccess",
+					"settings":
+					{
+						"buffer_size": 245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "inc/connection.php",
+					"settings":
+					{
+						"buffer_size": 326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "inc/constants.php",
+					"settings":
+					{
+						"buffer_size": 145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "inc/header.php",
+					"settings":
+					{
+						"buffer_size": 5088,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -687,7 +870,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 7,
 					"file": "css/style.css",
 					"settings":
 					{
@@ -716,63 +899,29 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "index.php",
+					"buffer": 8,
+					"file": "/C/Users/Mic/.bash_profile",
 					"settings":
 					{
-						"buffer_size": 3788,
+						"buffer_size": 37,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1621,
-								1621
+								36,
+								36
 							]
 						],
 						"settings":
 						{
+							"auto_name": "export PS1='\\w$(__git_ps1 \"(%s)\">'",
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1260.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "isotope.php.bak.php",
-					"settings":
-					{
-						"buffer_size": 2061,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								475,
-								475
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 420.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
