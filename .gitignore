@@ -3,3 +3,4 @@ sftp-config.json
 *.gz
 log/*.log
 log/*.log.[0-9]
+inc/constants.php
