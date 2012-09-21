@@ -1,0 +1,853 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"t",
+				"text-decoration"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"feed_",
+				"feed_url"
+			],
+			[
+				"reu",
+				"resultset"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"p",
+				"phone"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"PA",
+				"padding-top"
+			],
+			[
+				"b",
+				"border-left"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"li",
+				"li"
+			],
+			[
+				"s",
+				"solid"
+			],
+			[
+				"f",
+				"footer1"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"ind",
+				"z-index"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ease",
+				"ease"
+			],
+			[
+				"ease-i",
+				"ease-in-out"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ar",
+				"arrows"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"con",
+				"contain"
+			],
+			[
+				"gr",
+				"grade"
+			],
+			[
+				"l",
+				"list-style-type"
+			],
+			[
+				"o",
+				"overflow"
+			],
+			[
+				"moz-tr",
+				"moz-transform"
+			],
+			[
+				"moz",
+				"moz-transform"
+			],
+			[
+				"mo",
+				"moz-transform"
+			],
+			[
+				"sc",
+				"scale"
+			],
+			[
+				"fi",
+				"fifth"
+			],
+			[
+				"positio",
+				"position"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"T",
+				"text-align"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"cla",
+				"class_name"
+			],
+			[
+				"strt",
+				"strtolower"
+			],
+			[
+				"a",
+				"attribute"
+			],
+			[
+				"array_k",
+				"array_key_exists"
+			],
+			[
+				"find",
+				"find_by_sql"
+			],
+			[
+				"S",
+				"SELECT"
+			],
+			[
+				"res",
+				"result_set"
+			],
+			[
+				"gl",
+				"global"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"fu",
+				"found_user"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"me",
+				"message"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "sftp-config.json",
+			"settings":
+			{
+				"buffer_size": 1242,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/header.php",
+			"settings":
+			{
+				"buffer_size": 4667,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 18824,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 3788,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "isotope.php.bak.php",
+			"settings":
+			{
+				"buffer_size": 2061,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/firefox.sublime-build",
+	"command_palette":
+	{
+		"height": 60.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			]
+		],
+		"width": 386.0
+	},
+	"console":
+	{
+		"height": 160.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Mic/Dropbox/Business/Web Development/www/bored/inc/footer2.php",
+		"/C/Users/Mic/Dropbox/Business/Web Development/www/bored/isotope.php",
+		"/C/Users/Mic/Dropbox/Business/Web Development/www/school_project/school_project.sublime-project",
+		"/C/Users/Mic/Desktop/feafeaa3eceb3af2de6fdeca99150b3a.spc",
+		"/C/Users/Mic/Dropbox/Business/Clients/Launchored/size by content.txt",
+		"/C/Users/Mic/Dropbox/Business/Web Development/www/bored/index.php",
+		"/C/Users/Mic/Dropbox/Business/Web Development/www/bored/sftp-config.json",
+		"/C/Users/Mic/Dropbox/Business/Web Development/www/school_project/sftp-config.json",
+		"/C/Users/Mic/Dropbox/Business/Web Development/www/rodtree/rodtree.sublime-project",
+		"/C/Users/Mic/Dropbox/Business/Web Development/www/rodtree/language/en-GB/en-GB.mod_footer.ini",
+		"/C/Users/Mic/Dropbox/Business/Web Development/www/rodtree/language/en-GB/en-GB.mod_feed.sys.ini",
+		"/C/Users/Mic/Dropbox/Business/Web Development/www/rodtree/templates/rodtree/index.php",
+		"/E/Dropbox/Business/Web Development/wordpress-3.4.2.zip",
+		"/E/Dropbox/Business/Clients/RW/Info.txt",
+		"/E/Dropbox/Business/Web Development/www/rodtree/templates/rodtree/css/default.css",
+		"/E/Dropbox/Business/Clients/RW/new website/2/index.php",
+		"/E/Dropbox/Business/Clients/RW/new website/2/templateDetails.xml",
+		"/E/Dropbox/Business/Web Development/Joomla/extended-menu-module-1.1.0-joomla16/README",
+		"/E/Dropbox/Business/Web Development/www/rodtree/sftp-config.json",
+		"/E/Dropbox/Business/Clients/localhost/localserver.txt",
+		"/E/Dropbox/Business/Web Development/www/wordpress/wp-content/themes/BLANK-Theme/style.css",
+		"/E/Dropbox/Business/Web Development/www/rodtree/templates/rodtree/templateDetails.xml",
+		"/E/Dropbox/Business/Web Development/www/rodtree/language/en-GB/en-GB.mod_footer.ini",
+		"/E/Dropbox/Business/Web Development/www/rodtree/templates/rodtree2/templateDetails.xml",
+		"/E/Dropbox/Business/Web Development/www/rodtree/templates/rodtree/index.php",
+		"/E/Dropbox/Business/Web Development/www/rodtree/modules/mod_sp_image_rotator/assets/images/next.png",
+		"/E/Dropbox/Business/Clients/qwixtart/TXT/dserver.txt",
+		"/E/Dropbox/Business/Web Development/www/rodtree/templates/rodtree/images/headerbranding.png",
+		"/E/Dropbox/Business/Web Development/www/rodtree/templates/rodtree/images/searchButton.gif",
+		"/E/Dropbox/Business/Web Development/www/rodtree/templates/rodtree/index.html",
+		"/E/Dropbox/Business/Web Development/www/test_project/index.php",
+		"/E/Dropbox/Business/Web Development/www/test_project/test_project.sublime-project",
+		"/E/Dropbox/Business/Web Development/www/test_project/about-us/index.php",
+		"/E/Dropbox/Business/Web Development/www/test_project/css/members.css",
+		"/E/Dropbox/Business/Web Development/www/test_project/css/services.css",
+		"/E/Dropbox/Business/Web Development/www/test_project/css/main.css",
+		"/Esftp-config.json",
+		"/C/wamp/www/mic_alexander/index.html",
+		"/E/Dropbox/Business/Web Development/www/mic_alexander/index.html",
+		"/C/wamp/www/mic_alexander/sftp-config.json",
+		"/E/Dropbox/Business/Clients/Mic Alexander/mic_alexander.sublime-project",
+		"/C/wamp/www/mic_alexander/css/animate.css",
+		"/C/wamp/www/mic_alexander/tear_this_roof_off.mp3",
+		"/C/Users/Mic/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Mic/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Mic/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Mic/AppData/Local/Temp/fbtmp/www.youtube.com/results.html",
+		"/C/wamp/www/test_project/index.php",
+		"/C/wamp/www/bartaz-impress.js-0.5.3-3-g9ccb39d/bartaz-impress.js-9ccb39d/css/impress-demo.css",
+		"/C/wamp/www/mic_alexander/js/impress.js",
+		"/C/wamp/www/mic_alexander/css/page.css",
+		"/C/wamp/www/mic_alexander/css/main.css",
+		"/C/wamp/www/mic_alexander/index3.html",
+		"/E/Downloads/CSS-Tricks-AnythingSlider-v1.8.6-0-g7becb1e/CSS-Tricks-AnythingSlider-7becb1e/expand.html",
+		"/C/wamp/www/mic_alexander/css/anythingslider.css",
+		"/C/wamp/www/bartaz-impress.js-0.5.3-3-g9ccb39d/bartaz-impress.js-9ccb39d/index.html",
+		"/C/wamp/www/mic_alexander/js/jquery.anythingslider.js",
+		"/C/Users/Mic/AppData/Local/Temp/Temp1_bartaz-impress.js-0.5.3-3-g9ccb39d.zip/bartaz-impress.js-9ccb39d/css/impress-demo.css",
+		"/C/Users/Mic/AppData/Local/Temp/Temp1_bartaz-impress.js-0.5.3-3-g9ccb39d.zip/bartaz-impress.js-9ccb39d/index.html",
+		"/C/wamp/www/CSS-Tricks-AnythingSlider-Modified/expand.html",
+		"/E/Downloads/CSS-Tricks-AnythingSlider-v1.8.6-0-g7becb1e/CSS-Tricks-AnythingSlider-7becb1e/demos/css/page.css",
+		"/C/wamp/www/CSS-Tricks-AnythingSlider-Modified/js/jquery.anythingslider.js",
+		"/C/wamp/www/CSS-Tricks-AnythingSlider-Modified/css/anythingslider.css",
+		"/C/wamp/www/demo/css/style.css",
+		"/C/wamp/www/CSS-Tricks-AnythingSlider-Modified/demos/css/page.css",
+		"/C/Users/Mic/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.IE5/M1C814L7/acr.css",
+		"/E/Downloads/CSS-Tricks-AnythingSlider-v1.8.6-0-g7becb1e/CSS-Tricks-AnythingSlider-Modified/expand.html",
+		"/E/Downloads/CSS-Tricks-AnythingSlider-v1.8.6-0-g7becb1e/CSS-Tricks-AnythingSlider-Modified/demos/css/page.css",
+		"/E/Downloads/CSS-Tricks-AnythingSlider-v1.8.6-0-g7becb1e/CSS-Tricks-AnythingSlider-7becb1e/css/anythingslider.css",
+		"/E/Downloads/CSS-Tricks-AnythingSlider-v1.8.6-0-g7becb1e/CSS-Tricks-AnythingSlider-Modified/index.html",
+		"/E/Downloads/CSS-Tricks-AnythingSlider-v1.8.6-0-g7becb1e/CSS-Tricks-AnythingSlider-Modified/css3.html",
+		"/C/wamp/www/mic_alexander/ie/index.html",
+		"/C/Users/Mic/AppData/Local/Temp/Temp1_CSS-Tricks-AnythingSlider-v1.8.6-0-g7becb1e.zip/CSS-Tricks-AnythingSlider-7becb1e/video.html",
+		"/C/wamp/www/mic_alexander/js/coin-slider.js",
+		"/C/wamp/www/mic_alexander/css/coin-slider-styles.css",
+		"/E/Downloads/CSS-Tricks-AnythingSlider-v1.8.6-0-g7becb1e/CSS-Tricks-AnythingSlider-7becb1e/package.json",
+		"/E/Downloads/orbit-1.2.3/orbit-1.2.3 -modified/demo/demo.html",
+		"/E/Downloads/orbit-1.2.3/orbit-1.2.3/demo/demo.html",
+		"/E/Downloads/menueffect/menueffect/style2.css",
+		"/C/wamp/www/mic_alexander/js/script.js",
+		"/E/Downloads/menueffect/menueffect/index.html",
+		"/E/Downloads/css3-product-showcase/index.html",
+		"/C/Users/Mic/AppData/Local/Temp/Temp1_css3-product-showcase.zip/assets/css/styles.css",
+		"/C/wamp/www/test_project/css/members.css",
+		"/C/wamp/www/test_project/members/index.php",
+		"/C/wamp/www/test_project/css/services.css",
+		"/C/wamp/www/test_project/services/index.php",
+		"/C/wamp/www/test_project/css/main.css",
+		"/E/Dropbox/Business/Web Development/test_project/css/services.css",
+		"/E/Dropbox/Business/Web Development/test_project/css/members.css",
+		"/C/wamp/www/test_project/css/about-us.css",
+		"/C/wamp/www/test_project/about-us/index.php",
+		"/C/wamp/www/index.php",
+		"/C/wamp/www/school_project/css/sevices.css",
+		"/C/wamp/www/school_project/css/main.css",
+		"/C/wamp/www/school_project/index.php",
+		"/C/wamp/www/photo_gallery/public/admin/index.php",
+		"/E/Downloads/index.php",
+		"/C/Users/Mic/AppData/Roaming/Sublime Text 2/Packages/HTML/html.sublime-snippet",
+		"/E/Dropbox/Business/Web Development/CSS/accordion-demo/demo - Copy/index.html",
+		"/E/Dropbox/Public/bored/css/style.css",
+		"/E/Dropbox/Business/Web Development/CSS/accordion-demo/demo/index.html",
+		"/E/Dropbox/Business/Web Development/CSS/accordion-demo/demo/css/style.css",
+		"/C/Users/Mic/AppData/Roaming/Sublime Text 2/Packages/Text/lorem.sublime-snippet",
+		"/C/Users/Mic/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/E/Dropbox/Business/Clients/launchmotto/launchmotto site/index.html",
+		"/E/Downloads/Lynda Ex Files/Ex_Files_PHP_MySQL_BTB/Ex_Files_PHP_MySQL_BTB/Exercise Files/Chapter06/06_11_photo_gallery/includes/functions.php",
+		"/C/wamp/www/photo_gallery/includes/functions.php",
+		"/E/Downloads/Lynda Ex Files/Ex_Files_PHP_MySQL_BTB/Ex_Files_PHP_MySQL_BTB/Exercise Files/Chapter06/06_11_photo_gallery/public/admin/login.php",
+		"/C/wamp/www/photo_gallery/includes/session.php",
+		"/C/wamp/www/photo_gallery/includes/database.php",
+		"/E/Downloads/Lynda Ex Files/Ex_Files_New_PHP_EssT/Ex_Files_New_PHP_EssT/Exercise Files_NEW/chapter_13/13_13_widget_corp/includes/functions.php",
+		"/C/Users/Mic/AppData/Roaming/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/Mic/AppData/Roaming/Sublime Text 2/Packages/User/PHP.sublime-settings",
+		"/C/wamp/www/photo_gallery/includes/config.php",
+		"/E/Downloads/Lynda Ex Files/Ex_Files_New_PHP_EssT/Ex_Files_New_PHP_EssT/Exercise Files_NEW/chapter_15/15_01_widget_corp/includes/functions.php",
+		"/E/Downloads/Lynda Ex Files/Ex_Files_PHP_MySQL_BTB/Ex_Files_PHP_MySQL_BTB/Exercise Files/Chapter02/02_05_btb_sandbox/date_time_format.php"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"search",
+			"position",
+			"feed",
+			"maximise",
+			";\n",
+			"; ",
+			"container",
+			"computer",
+			"side",
+			";\n",
+			"<div class=\"backlayer\"><p>Sample Text</p>\n								</div>\n								<div class=\"arrow\">\n								</div>\n								<div class=\"overlay\"><p>Sample Text</p>\n								</div>",
+			";\n",
+			"thumb",
+			"var defaults = {",
+			"globals",
+			"global ",
+			"global defaults",
+			"check support",
+			".anythingSlider",
+			".anythingSlider  ",
+			".wrapper ",
+			"panel",
+			"#impress",
+			"arrow",
+			"start",
+			"start-stop",
+			".start-stop",
+			"nav",
+			"thumb",
+			"audio",
+			"600px",
+			"border",
+			"wrapper",
+			"arrows",
+			"cofee",
+			"target",
+			"assets/img",
+			"assets/img\n",
+			"mask\n",
+			";\n",
+			"border",
+			"border-top",
+			"border-bottom",
+			"box-shadow",
+			"color: #555;",
+			"color: #777;",
+			"color: #999;",
+			"#fff",
+			"font",
+			"color",
+			"text-shadow",
+			"color",
+			";    ",
+			"999",
+			"color",
+			"text-shadow",
+			"border-right",
+			"images",
+			"backboard",
+			"648",
+			"box",
+			"containinner5",
+			"prev",
+			"opacity",
+			"../",
+			";\n",
+			"box-",
+			"../",
+			"slide",
+			"-webkit-transform",
+			"-moz-",
+			"active",
+			"=",
+			"article",
+			"ul",
+			"slide",
+			"margin-left",
+			"5",
+			"button",
+			"316px",
+			"5",
+			"}\n",
+			"body {\n	font-family: Verdana, Geneva, sans-serif;\n	font: 16px;\n	margin: 0 auto;\n	background: #c9eaed; \n\n}\nimg {\n	border: none;\n}\n#wrapper {\n	background: #FFFFFF;\n	width: 980px;\n	height: auto;\n	margin: 0 auto;\n}\nheader {\n	width: 980px;\n	height: 100px;\n}\nheader img{\n	width: 353px;\n	height: 65px;\n	margin: 20px 0 0 20px;\n}\nnav{\n	background: #48494a;\n	height: 40px;\n	width: 980px;\n	border-bottom: 5px solid #c02161;\n	\n}\nnav ul{\n	list-style-type: none;\n	margin: 0 0 0 75px;\n}\n\nnav ul li{\n	float: left;\n	line-height: 40px;\n	width: 150px;\n	height: 40px;\n	text-align: center;\n}\nnav ul li:nth-child(1) {\n	background: #616263;\n	border-bottom: 5px solid #ffbc48;\n\n}\nnav ul li:nth-child(2) {\n	background: #757676;\n	border-bottom: 5px solid #cc26ea;\n}\nnav ul li:nth-child(3) {\n	background: #616263;\n	border-bottom: 5px solid #2679ea;\n\n}\nnav ul li:nth-child(4) {\n	background: #757676;\n	border-bottom: 5px solid #eef034;\n\n}\nnav ul li:nth-child(5) {\n	background: #616263;\n	border-bottom: 5px solid #bcf885;\n\n\n}\nnav a {\n	text-decoration: none;\n	display: inline-block;\n	width: 150px;\n	height: 40px;\n	color: #ffffff;\n}\nnav li:nth-child(1) a:hover {\n	height: 50px;\n	background: #616263;\n	border-bottom: 5px solid #ffbc48;\n	-webkit-transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n       -moz-transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n        -ms-transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n         -o-transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n            transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n\n}\n\nnav li:nth-child(2) a:hover {\n	height: 50px;\n	background: #757676;\n	border-bottom: 5px solid #cc26ea;\n	-webkit-transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n       -moz-transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n        -ms-transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n         -o-transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n            transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);	\n\n}\nnav li:nth-child(3) a:hover {\n	height: 50px;\n	background: #616263;\n	border-bottom: 5px solid #2679ea;\n	-webkit-transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n       -moz-transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n        -ms-transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n         -o-transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n            transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n\n}\nnav li:nth-child(4) a:hover {\n	height: 50px;\n	background: #757676;\n	border-bottom: 5px solid #eef034;\n	-webkit-transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n       -moz-transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n        -ms-transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n         -o-transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n            transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n\n}\nnav li:nth-child(5) a:hover {\n	height: 50px;\n	background: #616263;\n	border-bottom: 5px solid #bcf885;\n	-webkit-transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n       -moz-transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n        -ms-transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n         -o-transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n            transition: height .2s cubic-bezier(0.420, 0.000, 0.580, 1.000);\n}\nsection {\n	position: relative;\n	width: 980px;\n	height: 800px;\n}\nsection ul {\n	margin: 0;\n	padding: 0;\n	list-style-type: none;\n}\n/*Gallery settings here*/\n\n#gallery {\n	width: 980px;\n	height: 385px;\n	margin: 0;\n	padding: 0;\n	overflow: hidden;\n	text-align: none;\n}\n#gallery img {\n	margin: 0;\n	padding: 0;\n	text-align: none;\n}\n#gallery li:nth-child(1) p{\n	position: absolute;\n	top: 0;\n	right: 30px;\n}\n#gallery li:nth-child(2) p{\n	position: absolute;\n	top: 30px;\n	right: 30px;\n}\n#gallery li:nth-child(3) p{\n	position: absolute;\n	top: 60px;\n	right: 30px;\n}\n#gallery li:nth-child(4) p{\n	position: absolute;\n	top: 90px;\n	right: 30px;\n}\n#gallery li:nth-child(5) p{\n	position: absolute;\n	top: 120px;\n	right: 30px;\n}\n\nfooter {\n	width: 980px;\n	height: 100px;\n	background: #48494a;\n	color: #ffffff;\n	text-align: center;\n	padding-top: 40px;\n	font-size: 14px;\n}\n",
+			"transition",
+			";\n",
+			"height",
+			"vertical",
+			"accordion",
+			"overflow",
+			"oferflow",
+			"host",
+			"session\n",
+			"$session\n",
+			"is_logged\n",
+			";\n",
+			"function"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"images",
+			"color: #666666;",
+			"color: #555;",
+			"color: #777;",
+			"a08e8e",
+			"../images",
+			"",
+			"cslide",
+			"all",
+			"-webkit-",
+			"=\"",
+			"info"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "sftp-config.json",
+					"settings":
+					{
+						"buffer_size": 1242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								550,
+								550
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "inc/header.php",
+					"settings":
+					{
+						"buffer_size": 4667,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								540,
+								540
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 18824,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2541,
+								2541
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2767.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 3788,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1621,
+								1621
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1260.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "isotope.php.bak.php",
+					"settings":
+					{
+						"buffer_size": 2061,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								475,
+								475
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 30.0
+	},
+	"output.sftp":
+	{
+		"height": 130.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/wamp/www/photo_gallery1/photo.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 162.0,
+	"status_bar_visible": false
+}

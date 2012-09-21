@@ -1,0 +1,1 @@
+a:3:{s:3:"url";s:35:"http://news.nationalgeographic.com/";s:8:"feed_url";s:53:"http://feeds.nationalgeographic.com/ng/News/News_Main";s:5:"build";s:14:"20120710073426";}
