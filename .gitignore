@@ -1,4 +1,4 @@
-stp-config.json
+sftp-config.json
 *.zip
 *.gz
 log/*.log
