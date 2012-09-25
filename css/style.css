@@ -138,9 +138,15 @@ img {
 	box-shadow: 0 3px 0 #DBDBDB inset, 0 3px 10px #999 inset;
 }
 #signin a{
-	position: absolute;
-	top: -30px;
 	color: #B147A3;
+    height: 20px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: -30px;
+    width: 200px;
 }
 #topleft p{
 	margin: 0;
