@@ -47,16 +47,28 @@ foreach ($feed_map as $feed_url => $value)
         <div class="minimise"><img class="channel1" src="images/boreds/<?php echo $feed_map[$feed_url] ?>.png"/>
  
         <div class="minimise2"><h2>See whats new on <?php echo $feed_map[$feed_url] ?>.</h2>
-          <a href="<?php echo $feed_url; ?>" target="_blank" title="Go to <?php echo $feed_map[$feed_url] ?>.com">
-          <img class="launch" src="images/launch.png"/></a>
+                     <div class="launch">
+               <a href="#" target="_blank" title="go to <?php echo $feed_map[$feed_url] ?>.com">
+               <img src="images/launch.png"/></a>
+               <a href="#" target="_blank" title="read feed">
+               <img src="images/feed.png"/></a>
+               <img src="images/maximize.png" title="maximize" />
+             </div>
         </div></div>
     
-        <div class="maximise empt">
+        <div class="maximise">
           <div class="innermaxmask">
               <div class="innermax">
                 <img class="channel" src="images/boreds/<?php echo $feed_map[$feed_url] ?>.png"/><br>
-              <a href="<?php echo $feed_url; ?>">
+              <a href="#">
             <h2>See whats new on <?php echo $feed_map[$feed_url]; ?>.</h2></a>
+            <div class="launch">
+                   <img class="userlaunch" src="images/minimize.png" title="minimize" />
+                   <a href="#" target="_blank" title="go to feed page">
+                   <img class="userlaunch" src="images/feed.png"/></a>
+                   <a href="#" target="_blank" title="go to <?php echo $feed_map[$feed_url] ?>.com homepage">
+                   <img class="userlaunch" src="images/launch.png"/></a>
+                 </div>
             </div>
           </div>
         </div>

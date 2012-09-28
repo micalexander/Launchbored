@@ -79,15 +79,9 @@ img {
 
 }
 
-#topsh {
-	position: fixed;
-	top:70px;
-	height: 20px;
-    margin: 0 auto;
-    width: 100%;
-	z-index:7;
-}
+
 #top { 
+
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -105,7 +99,7 @@ img {
 	
 }
 #topcontent { 
-	width: 1500px;
+	width: 1400px;
 	height: 150px;
 	margin: 0 auto;
 	z-index: 6;
@@ -155,7 +149,7 @@ img {
 }
 #topcenter {
 	
-	width: 670px;
+	width: 600px;
 	height:120px;
 	padding-top: 0;
 	float: left;
@@ -183,6 +177,9 @@ form {
 	width: 600px;
 	height: 50px;
 }
+input:focus{
+ 	outline: none;
+}
 #searchbox {
 	height: 50px;
 	width: 590px;
@@ -190,7 +187,7 @@ form {
 	padding-left: 10px;
 	background: #fff;
 	color: #FF8100;
-	font-size: 16px;
+	font-size: 20px;
 	-moz-box-shadow: 0 3px 0 #dbdbdb, 0 3px 10px #999;
 	-webkit-box-shadow: 0 3px 0 #DBDBDB inset, 0 3px 10px #999 inset;
 	box-shadow: 0 3px 0 #DBDBDB inset, 0 3px 10px #999 inset;
@@ -222,17 +219,30 @@ form {
 #searchbutton:hover {
     background: #149593;
 }
-#filter {
+#filtersearch {
 	margin: auto;
-	width: 200px;
-	height: 25px;
+	margin-bottom: 20px;
+	width: 590;
+	height: 50px;
 
 }
-#filter input{
-	width: 200px;
-	height: 25px;
+#filtersearch input{
+	height: 50px;
+	width: 590px;
+	margin-left: 0;
+	padding-left: 10px;
+	background: #fff;
+	color: #FF8100;
+	font-size: 20px;
+	-moz-box-shadow: 0 3px 0 #dbdbdb, 0 3px 10px #999;
+	-webkit-box-shadow: 0 3px 0 #DBDBDB inset, 0 3px 10px #999 inset;
+	box-shadow: 0 3px 0 #DBDBDB inset, 0 3px 10px #999 inset;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
 }
-#filter fieldset{
+
+#filtersearch fieldset{
 	width: 100%;
 	height: 50px;
 }
@@ -243,19 +253,26 @@ form {
 /**** Content ****/
 
 #content {
+	position: absolute;
+	top: 160px;
+	left: 0;
 	padding: 0;
 	width: 100%;
 	margin: 0 auto;
-	margin-top: 200px; 
+	margin-top: 20px; 
 	color: #999;
 	text-shadow: 1px 1px #fff;
 	 
 }
 #container {
+	position: absolute;
+	top: 0;
 	width: 90%;
 	margin: auto;
 }
-
+#containerwrapper{
+	position: relative;
+}
 
 /* screens smaller than 640 */
 @media screen and (max-width: 640px) {

@@ -180,12 +180,12 @@ $feed->handle_content_type(); // Take care of the character encoding
 
 </div>
 <div id="containerwrapper">
+  <form id="filtersearch" action="#">
+            <input type="text" name="search" value="" id="channel" placeholder="search boreds..." autofocus />
+        
+        </form>
     <div id="container" class="transitions-enabled clearfix">
-      <form id="filter" action="#">
+         
 
-          <fieldset class="transitions-enabled clearfix">
-            <input type="text" name="search" value="" id="channel" placeholder="filter..." autofocus />
-          </fieldset>
-    </form>
         
     
