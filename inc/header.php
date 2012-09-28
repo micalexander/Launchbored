@@ -13,18 +13,21 @@ $bored_query_result = bored_query($connection);
 $feed_urls = array();
 $bored_names = array();
 
-  while($row = mysql_fetch_assoc($bored_query_result)){
-    $feed_urls[] = $row['feed_url'] ;
-    $bored_names[] = $row['bored_name'] ;
+$feed_map = array();
+
+while($row = mysql_fetch_assoc($bored_query_result))
+{
+    $feed_map[$row['feed_url']] = $row['bored_name'];
     
-   
-    
+    if ($row['is_valid'])
+    {
+        $urls[$row['feed_url']] = $row['bored_name'];
+    }
+    // $feed_urls[] = $row['feed_url'] ;
+    // $bored_names[] = $row['bored_name'] ;
 }
-$urls = array_combine($feed_urls, $bored_names);
 
-
-
-
+// $urls = array_combine($feed_urls, $bored_names);
 
 
 $feed->set_feed_url(array_keys($urls));
@@ -34,6 +37,8 @@ $feed->set_cache_location('cache');
 $feed->set_cache_duration(1800); // Set the cache time
 $feed->set_item_limit(1);
 $success = $feed->init(); // Initialize SimplePie
+
+
 $feed->handle_content_type(); // Take care of the character encoding
 
 ?>
