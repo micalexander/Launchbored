@@ -7,18 +7,13 @@
 <!-- <script src="../js/fake-element.js"></script> -->
 <script>
 $("#channel").keyup(function() {
-  if($(this).val()) {
+
     var search = $(this).val().toLowerCase();
-    $('.item').hide();
-    $("[name*='"+search+"']").show();
+    $('#container').isotope({
+        filter: "[name*='"+search+"']"
+    });
 
-
-
-        
-  } else {
-    $('.item').show();
-
-}
+      
 
 
 });
