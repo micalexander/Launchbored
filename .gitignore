@@ -3,6 +3,7 @@ sftp-config.json
 *.gz
 log/*.log
 log/*.log.[0-9]
+cache/*
 inc/constants.php
 launchbored.sublime-project
 launchbored.sublime-workspace
