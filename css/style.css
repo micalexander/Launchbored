@@ -2,7 +2,7 @@
 /* CSS Document */
 html {overflow-y: scroll;}
 body { 
-  	font-family: 'Orienta', sans-serif;
+  	font-family: verdana, sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: normal;
@@ -68,13 +68,11 @@ img {
 }
 #logo {
 	
-	margin: 5px 0 5px 110px;
 	padding: 0;
-	height: 51px;
-	width:420px;
-	text-align: center;
+	height: 50px;
+	width:270px;
 	background: url("../images/logo.png") no-repeat scroll center center #ffffff;
-	display: inline-block;
+	
 	z-index:6;
 
 }
@@ -217,9 +215,9 @@ input:focus{
 }
 #order{
 	position: relative;
-	width: 1200px;
+	width: 1470px;
 	height: 50px;
-	margin: auto;
+	margin: 5px auto;
 	-moz-box-shadow: 0 3px 0 #dbdbdb, 0 3px 10px #999;
 	-webkit-box-shadow: 0 3px 0 #DBDBDB inset, 0 3px 10px #999 inset;
 	box-shadow: 0 3px 0 #DBDBDB inset, 0 3px 10px #999 inset;
@@ -332,7 +330,9 @@ margin: 7px 0 0 10px;
     background: #149593;
 }
 #filtersearch {
-	margin: 5px 0;
+	position: absolute;
+	top: 0;
+	left: 270px;
 	width: 188px;
 	height: 50px;
 	-moz-box-shadow: 0 3px 0 #dbdbdb, 0 3px 10px #999;
@@ -354,14 +354,14 @@ margin: 7px 0 0 10px;
 	background: transparent;
 }
 #filtersearch input[type="button"] {
-position: absolute;
-top: 10px;
-right: 10px;
-width: 30px;
-height: 30px;
-background: url(../images/clear.png) no-repeat;
-opacity: .5;
-text-indent: -99999px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 30px;
+	height: 30px;
+	background: url(../images/clear.png) no-repeat;
+	opacity: 1;
+	text-indent: -99999px;
 }
 #filtersearch fieldset{
 	width: 100%;
@@ -385,40 +385,43 @@ text-indent: -99999px;
 	text-shadow: 1px 1px #fff;
 	 
 }
-#container {
-	position: absolute;
-	top: 0;
-	width: 90%;
-	margin: auto;
-}
+
 #containerwrapper{
 	position: relative;
 }
 
-#container {
-width: 1210px;
-margin: 0 auto; }
 @media screen and (max-width: 320px) {
 #container  {
-width: 300px;
-margin: 0 10px; } }
+width: 400px;
+margin: 0 auto; } }
 @media screen and (min-width: 321px) {
 #container  {
-width: 460px;
-margin: 0 10px; } }
+width: 400px;
+margin: 0 auto; } }
 @media screen and (min-width: 486px) {
 #container {
-width: 486px;
+width: 400px;
 margin: 0 auto; } }
-@media screen and (min-width: 726px) {
+@media screen and (min-width: 600px) {
 #container  {
-width: 726px; } }
+width: 600px;
+margin: 0 auto; } }
 @media screen and (min-width: 968px) {
 #container  {
-width: 968px; } }
+width: 800px;
+margin: 0 auto; } }
 @media screen and (min-width: 1210px) {
 #container  {
-width: 1210px; } } 
+width: 1000px;
+margin: 0 auto; } } 
+@media screen and (min-width: 1280px) {
+#container  {
+width: 1000px;
+margin: 0 auto; } } 
+@media screen and (min-width: 1400px) {
+#container  {
+width: 1400px;
+margin: 0 auto; } }
 
 .usercontent{
 	margin: 0 0 30px 0;
@@ -762,7 +765,7 @@ div.moving {
 
 }
 /*wide bored*/
-.homepage .item:nth-child(3n){
+.homepage .item:nth-child(4n){
 	 padding: 0;
 	 margin: 5px 0 15px 10px;
  	 width: 380px;
@@ -776,14 +779,14 @@ div.moving {
      -moz-border-radius: 5px 5px 5px 5px;
           border-radius: 5px 5px 5px 5px;
 }
-.homepage .item:nth-child(3n) .minimise{
+.homepage .item:nth-child(4n) .minimise{
 	 padding: 0 0 5px 0;
  	 width: 380px;
 	 height: 95px;
 	 background: #ffffff;
 
 }
-.homepage .item:nth-child(3n) .minimise .channel1 {
+.homepage .item:nth-child(4n) .minimise .channel1 {
 	padding: 0 100px 0 100px;
 	width: 180px;
 	height: 95px;
@@ -797,7 +800,7 @@ div.moving {
           border-radius: 5px 5px 5px 5px;
 		  
 }
-.item:nth-child(3n):hover .minimise .channel1,  .item:nth-child(3n):hover #amount{
+.item:nth-child(4n):hover .minimise .channel1,  .item:nth-child(4n):hover #amount{
 	margin-top: -205px;
 	-webkit-transform: rotate(-6deg);
 	-moz-transform: rotate(-6deg);
@@ -806,7 +809,7 @@ div.moving {
  
 }
 
-.homepage .item:nth-child(3n) .minimise2 {
+.homepage .item:nth-child(4n) .minimise2 {
 	padding: 0 0 5px 0;
 	margin-top: 20px;
 	width: 180px;
@@ -822,7 +825,7 @@ div.moving {
      -moz-border-radius: 5px 5px 5px 5px;
           border-radius: 5px 5px 5px 5px;
 }
-.homepage .item:nth-child(3n):hover .minimise2 {
+.homepage .item:nth-child(4n):hover .minimise2 {
 	margin-top: -19px;
 	width: 380px;
 	height: 95px;
@@ -835,7 +838,7 @@ div.moving {
      -moz-border-radius: 5px 5px 5px 5px;
           border-radius: 5px 5px 5px 5px;
 }
-.homepage .item:nth-child(3n) #amount {
+.homepage .item:nth-child(4n) #amount {
 	position: absolute; 
     top: 10px; 
     left: 335px; 

@@ -51,6 +51,7 @@ $feed->handle_content_type(); // Take care of the character encoding
   
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
   <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <link href='http://fonts.googleapis.com/css?family=Orienta' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css" />
@@ -64,6 +65,8 @@ $feed->handle_content_type(); // Take care of the character encoding
 
 <div id="top" class="transitions-enabled clearfix">
   <div id="order">
+    
+  <div id="logo" class="transitions-enabled clearfix"></div>
         <form id="filtersearch" action="#">
             <input type="text" name="search" value="" id="channel" placeholder="search boreds..." autofocus />
             <input type="button" onclick="formReset()" value="Reset Filter" />
