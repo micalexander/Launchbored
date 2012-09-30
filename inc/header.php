@@ -61,17 +61,12 @@ $feed->handle_content_type(); // Take care of the character encoding
 </head>
 <body class="homepage">
 
-<script>
- function formReset() {
-document.getElementById("filtersearch").reset();
-$('#channel').keyup();
-}
-</script>
+
 <div id="top" class="transitions-enabled clearfix">
   <div id="order">
         <form id="filtersearch" action="#">
             <input type="text" name="search" value="" id="channel" placeholder="search boreds..." autofocus />
-            <input type="button" onclick="formReset()" value="Reset form" />
+            <input type="button" onclick="formReset()" value="Reset Filter" />
         </form>
   <section id="options" class="clearfix" data-option-key="*">
     <ul class="option-set clearfix" >

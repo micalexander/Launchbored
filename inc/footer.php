@@ -6,17 +6,19 @@
 <script src="../jquery.isotope.min.js"></script>
 <!-- <script src="../js/fake-element.js"></script> -->
 <script>
-$('#channel').val('').keyup(function() {
+$("#channel").keyup(function() {
 
     var search = $(this).val().toLowerCase().trim();
     $('#container').isotope({
         filter: "[name*='"+search+"']"
     });
 
-      
-
-
 });
+
+function formReset() {
+document.getElementById("filtersearch").reset();
+$('#channel').keyup();
+}
 // cache container
 var $container = $('#container');
 // initialize isotope
@@ -203,7 +205,17 @@ $('#filters a').click(function(){
          $(this).show();
         $container.isotope('reLayout');
       });
-        
+        $('.wizard-img').click(
+    function() {
+        if ($(this).hasClass('on')) {
+            $(this).removeClass('on').addClass('off');
+        } else if ($(this).hasClass('off')) {
+            $(this).removeClass('off');
+        } else {
+            $(this).addClass('on');
+        }
+    }
+);
         
     
 
