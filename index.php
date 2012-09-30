@@ -14,26 +14,6 @@ foreach ($feed->get_items() as $item)
     $itemMap[$item->feed->feed_url] = $item;
 }
 
-// foreach ($feed_map as $url => $image) {
-//   $unset = array();
-//  
-//   $feed_items[$url] = array();
-//   
-//  
-//   foreach ($items as $i => $item) {
-//     if ($item->get_feed()->feed_url == $url) {
-//       $feed_items[$url][] = $item;
-//       $unset[] = $i;
-//          
-//      }
-//   }
-// 
-// 
-//   foreach ($unset as $i) {
-//     unset($items[$i]);
-//   }
-// }
-
 foreach ($feed_map as $feed_url => $value)
 {
     
@@ -41,16 +21,15 @@ foreach ($feed_map as $feed_url => $value)
     if (!array_key_exists($feed_url, $urls))
     {
         ?>
-  
-        <div class="item element" data-symbol="<?php echo $feed_map[$feed_url] ?>" name="<?php echo $feed_map[$feed_url] ?>">
+        <div class="item element <?php echo $value['bored_cat_type']; ?> <?php echo $value['bored_cat_type2']; ?>" data-symbol="<?php echo $value['bored_name']; ?>" name="<?php echo $value['bored_name']; ?>">
     
-        <div class="minimise"><img class="channel1" src="images/boreds/<?php echo $feed_map[$feed_url] ?>.png"/>
+        <div class="minimise"><img class="channel1" src="images/boreds/<?php echo $value['bored_name']; ?>.png"/>
  
-        <div class="minimise2"><h2>See whats new on <?php echo $feed_map[$feed_url] ?>.</h2>
+        <div class="minimise2"><h2>See whats new on <?php echo $value['bored_name']; ?>.</h2>
                      <div class="launch">
-               <a href="#" target="_blank" title="go to <?php echo $feed_map[$feed_url] ?>.com">
+               <a href="<?php echo $value['url']; ?>" target="_blank" title="go to <?php echo $value['bored_name']; ?>.com">
                <img src="images/launch.png"/></a>
-               <a href="#" target="_blank" title="read feed">
+               <a href="<?php echo $value['url']; ?>" target="_blank" title="read feed">
                <img src="images/feed.png"/></a>
                <img src="images/maximize.png" title="maximize" />
              </div>
@@ -59,14 +38,14 @@ foreach ($feed_map as $feed_url => $value)
         <div class="maximise">
           <div class="innermaxmask">
               <div class="innermax">
-                <img class="channel" src="images/boreds/<?php echo $feed_map[$feed_url] ?>.png"/><br>
-              <a href="#">
-            <h2>See whats new on <?php echo $feed_map[$feed_url]; ?>.</h2></a>
+                <img class="channel" src="images/boreds/<?php echo $value['bored_name']; ?>.png"/><br>
+              <a href="<?php echo $value['url']; ?>">
+            <h2>See whats new on <?php echo $value['bored_name']; ?>.</h2></a>
             <div class="launch">
                    <img class="userlaunch" src="images/minimize.png" title="minimize" />
-                   <a href="#" target="_blank" title="go to feed page">
+                   <a href="<?php echo $value['url']; ?>" target="_blank" title="go to feed page">
                    <img class="userlaunch" src="images/feed.png"/></a>
-                   <a href="#" target="_blank" title="go to <?php echo $feed_map[$feed_url] ?>.com homepage">
+                   <a href="<?php echo $value['url']; ?>" target="_blank" title="go to <?php echo $value['bored_name']; ?>.com homepage">
                    <img class="userlaunch" src="images/launch.png"/></a>
                  </div>
             </div>
@@ -81,14 +60,14 @@ foreach ($feed_map as $feed_url => $value)
          // we have a feed
          ?>
          
-         <div class="item element" data-symbol="<?php echo $urls[$feed_url] ?>" name="<?php echo $urls[$feed_url] ?>">
+         <div class="item element feed <?php echo $value['bored_cat_type']; ?> <?php echo $value['bored_cat_type2']; ?>" data-symbol="<?php echo $urls[$feed_url] ?>" name="<?php echo $urls[$feed_url] ?>">
 
            <div class="minimise">
              <strong id="amount"><?php echo 4 ?></strong>
                <img class="channel1" src="images/boreds/<?php echo $urls[$feed_url] ?>.png"/>
              <div class="minimise2"><h2><?php echo $item->get_title(); ?></h2>
                <div class="launch">
-               <a href="<?php echo $item->get_permalink(); ?>" target="_blank" title="go to <?php echo $urls[$feed_url] ?>.com">
+               <a href="<?php echo $value['url']; ?>" target="_blank" title="go to <?php echo $urls[$feed_url] ?>.com">
                <img src="images/launch.png"/></a>
                <a href="<?php echo $item->get_permalink(); ?>" target="_blank" title="read feed">
                <img src="images/feed.png"/></a>
@@ -108,7 +87,7 @@ foreach ($feed_map as $feed_url => $value)
                    <img class="userlaunch" src="images/minimize.png" title="minimize" />
                    <a href="<?php echo $item->get_permalink(); ?>" target="_blank" title="go to feed page">
                    <img class="userlaunch" src="images/feed.png"/></a>
-                   <a href="<?php echo $item->get_permalink(); ?>" target="_blank" title="go to <?php echo $urls[$feed_url] ?>.com homepage">
+                   <a href="<?php echo $value['url']; ?>" target="_blank" title="go to <?php echo $urls[$feed_url] ?>.com homepage">
                    <img class="userlaunch" src="images/launch.png"/></a>
                  </div>
              </div>

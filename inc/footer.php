@@ -6,9 +6,9 @@
 <script src="../jquery.isotope.min.js"></script>
 <!-- <script src="../js/fake-element.js"></script> -->
 <script>
-$("#channel").keyup(function() {
+$('#channel').val('').keyup(function() {
 
-    var search = $(this).val().toLowerCase();
+    var search = $(this).val().toLowerCase().trim();
     $('#container').isotope({
         filter: "[name*='"+search+"']"
     });
@@ -16,6 +16,19 @@ $("#channel").keyup(function() {
       
 
 
+});
+// cache container
+var $container = $('#container');
+// initialize isotope
+$container.isotope({
+  // options...
+});
+
+// filter items when filter link is clicked
+$('#filters a').click(function(){
+  var selector = $(this).attr('data-filter');
+  $container.isotope({ filter: selector });
+  return false;
 });
   $.Isotope.prototype._masonryResizeChanged = function() {
     return true;
@@ -162,18 +175,37 @@ $("#channel").keyup(function() {
 
         if ($(this).hasClass('selected')) {
             $(this).removeClass('selected');
-            $(this).children('.maximise').hide();
-            $(this).children('.minimise').show();
+            $(this).find('.maximise').hide();
+            $(this).find('.minimise').show();
         } else {
             $(this).addClass('selected');
-            $(this).children('.minimise').hide();
-            $(this).children('.maximise').show();
+            $(this).find('.minimise').hide();
+            $(this).find('.maximise').show();
         }
 
         /*$container.isotope('shuffle');*/
         $container.isotope('reLayout');
     });
 
+      $('#expandall').toggle(function(){
+          //maxmise
+        $('.item').addClass('selected large');
+        $('.maximise').show();
+        $('.minimise').hide();
+      }, function(){
+        //minimise
+        $('.item').removeClass('selected large');
+        $('.maximise').hide();
+        $('.minimise').show();
+      });
+      $('#expandall').click(function(){
+        $(this).toggle();
+         $(this).show();
+        $container.isotope('reLayout');
+      });
+        
+        
+    
 
  });
 </script>

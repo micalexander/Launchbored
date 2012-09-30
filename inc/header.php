@@ -12,13 +12,13 @@ $bored_query_result = bored_query($connection);
 
 $feed_urls = array();
 $bored_names = array();
+$bored_cat_type = array();
 
 $feed_map = array();
 
 while($row = mysql_fetch_assoc($bored_query_result))
 {
-    $feed_map[$row['feed_url']] = $row['bored_name'];
-    
+    $feed_map[$row['feed_url']] = $row;
     if ($row['is_valid'])
     {
         $urls[$row['feed_url']] = $row['bored_name'];
@@ -28,7 +28,6 @@ while($row = mysql_fetch_assoc($bored_query_result))
 }
 
 // $urls = array_combine($feed_urls, $bored_names);
-
 
 $feed->set_feed_url(array_keys($urls));
 
@@ -62,9 +61,56 @@ $feed->handle_content_type(); // Take care of the character encoding
 </head>
 <body class="homepage">
 
-
+<script>
+ function formReset() {
+document.getElementById("filtersearch").reset();
+$('#channel').keyup();
+}
+</script>
 <div id="top" class="transitions-enabled clearfix">
-<div id="topcontent" class="transitions-enabled clearfix">
+  <div id="order">
+        <form id="filtersearch" action="#">
+            <input type="text" name="search" value="" id="channel" placeholder="search boreds..." autofocus />
+            <input type="button" onclick="formReset()" value="Reset form" />
+        </form>
+  <section id="options" class="clearfix" data-option-key="*">
+    <ul class="option-set clearfix" >
+      <li id="expandall" class="selected"><img src="../images/retract.png"></li>
+    </ul>
+    <ul id="sort-by" class="option-set clearfix" data-option-key="sortBy">
+      <li><a href="#sortBy=original-order" data-option-value="original-order" class="selected" data><img src="../images/original.png"></a></li>
+      <li id="shuffle"><a href='#shuffle'><img src="../images/shuffle.png"></a></li>
+    </ul>
+
+    <ul id="sort-direction" class="option-set clearfix" data-option-key="sortAscending">
+      <li><a href="#sortAscending=true" data-option-value="true" class="selected"><img src="../images/ascending.png"></a></li>
+      <li><a href="#sortAscending=false" data-option-value="false"><img src="../images/descending.png"></a></li>
+    </ul>
+
+    <ul id="filters" class="option-set clearfix" data-option-key="*">
+      <li><a href="#" data-filter="*" class="selected" ><img src="../images/show.png"></a></li>
+      <li><a href="#" data-filter=".search"><img src="../images/search.png"></a></li>
+      <li><a href="#" data-filter=".mail"><img src="../images/mail.png"></a></li>
+      <li><a href="#" data-filter=".shop"><img src="../images/shop.png"></a></li>
+      <li><a href="#" data-filter=".feed"><img src="../images/b_feed.png"></a></li>
+      <li><a href="#" data-filter=".news"><img src="../images/news.png"></a></li>
+      <li><a href="#" data-filter=".learn"><img src="../images/learn.png"></a></li>
+      <li><a href="#" data-filter=".tech"><img src="../images/tech.png"></a></li>
+      <li><a href="#" data-filter=".tv"><img src="../images/tv.png"></a></li>
+      <li><a href="#" data-filter=".video"><img src="../images/video.png"></a></li>
+      <li><a href="#" data-filter=".music"><img src="../images/music.png"></a></li>
+      <li><a href="#" data-filter=".photo"><img src="../images/photo.png"></a></li>
+      <li><a href="#" data-filter=".social"><img src="../images/social.png"></a></li>
+      <li><a href="#" data-filter=".game"><img src="../images/game.png"></a></li>
+      <li><a href="#" data-filter=".kids"><img src="../images/kids.png"></a></li>
+    </ul>
+    
+
+
+
+</section>
+</div> <!-- #options -->
+<!-- <div id="topcontent" class="transitions-enabled clearfix">
 <div id="topleft" class="transitions-enabled clearfix">
   <div id="homepage"><p><a href="#">click make this your hompage</a></p>
   </div>
@@ -75,7 +121,7 @@ $feed->handle_content_type(); // Take care of the character encoding
 <div id="topcenter" class="transitions-enabled clearfix">
 <div id="logo" class="transitions-enabled clearfix"></div>
 <div> 
-        <!--<div id="searchbar">--> 
+
         <form method="get" action="http://www.google.com/search">
         
         <input id="searchbox" type="text"   name="q" size="31"
@@ -83,92 +129,16 @@ $feed->handle_content_type(); // Take care of the character encoding
         <input id="searchbutton" type="submit" value="Google Search" />
         
         </form>
-        <!--</div>-->
+
 
 </div>
 </div>
 <div id="topright" class="transitions-enabled clearfix">
- 		<script type="text/javascript">
-      
-        
-        var d_names = new Array("Sunday", "Monday", "Tuesday",
-        "Wednesday", "Thursday", "Friday", "Saturday");
-        
-        var m_names = new Array("January", "February", "March", 
-        "April", "May", "June", "July", "August", "September", 
-        "October", "November", "December");
-        
-        var d = new Date();
-        var curr_day = d.getDay();
-        var curr_date = d.getDate();
-        var sup = "";
-        if (curr_date == 1 || curr_date == 21 || curr_date ==31)
-           {
-           sup = "st";
-           }
-        else if (curr_date == 2 || curr_date == 22)
-           {
-           sup = "nd";
-           }
-        else if (curr_date == 3 || curr_date == 23)
-           {
-           sup = "rd";
-           }
-        else
-           {
-           sup = "th";
-           }
-        var curr_month = d.getMonth();
-        var curr_year = d.getFullYear();
-      
-        document.write(d_names[curr_day] + " " + curr_date + "<SUP>"
-        + sup + "</SUP> " + m_names[curr_month] + " " + curr_year);
-        
-        
-        var a_p = "";
-        var d = new Date();
-        
-        var curr_hour = d.getHours();
-        
-        if (curr_hour < 12)
-           {
-           a_p = "AM";
-           }
-        else
-           {
-           a_p = "PM";
-           }
-        if (curr_hour == 0)
-           {
-           curr_hour = 12;
-           }
-        if (curr_hour > 12)
-           {
-           curr_hour = curr_hour - 12;
-           }
-        
-        var curr_min = d.getMinutes();
-         document.write('&nbsp; &nbsp; ');
-        document.write(curr_hour + " : " + curr_min + " " + a_p);
-        //-->
-        </script>
-        <section id="options" class="clearfix">
-<p>sort boreds</p>
-    <ul id="sort-by" class="option-set clearfix" data-option-key="sortBy">
-      <li><a href="#sortBy=original-order" data-option-value="original-order" class="selected" data><img src="../images/original.png"></a></li>
-    <li id="shuffle"><a href='#shuffle'><img src="../images/shuffle.png"></a></li>
-      </ul>
-
-    <ul id="sort-direction" class="option-set clearfix" data-option-key="sortAscending">
-      <li><a href="#sortAscending=true" data-option-value="true" class="selected"><img src="../images/ascending.png"></a></li>
-      <li><a href="#sortAscending=false" data-option-value="false"><img src="../images/descending.png"></a></li>
-    </ul>
-
-
-</section> <!-- #options --></div>    
+<script src="../js/script.js"></script>
+       </div>    
         
 </div>
-</div>
+</div> -->
 </div>
 
 
@@ -180,10 +150,7 @@ $feed->handle_content_type(); // Take care of the character encoding
 
 </div>
 <div id="containerwrapper">
-  <form id="filtersearch" action="#">
-            <input type="text" name="search" value="" id="channel" placeholder="search boreds..." autofocus />
-        
-        </form>
+  
     <div id="container" class="transitions-enabled clearfix">
          
 

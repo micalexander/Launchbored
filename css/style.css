@@ -86,7 +86,7 @@ img {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 140px;
+	height: 60px;
 	margin: 0 auto;
 	z-index: 6;
 	border-bottom: 1px solid #ddd;
@@ -215,25 +215,11 @@ input:focus{
 	box-shadow:  -2px 2px 10px #999 inset
 
 }
-
-#searchbutton:hover {
-    background: #149593;
-}
-#filtersearch {
+#order{
+	position: relative;
+	width: 1200px;
+	height: 50px;
 	margin: auto;
-	margin-bottom: 20px;
-	width: 590;
-	height: 50px;
-
-}
-#filtersearch input{
-	height: 50px;
-	width: 590px;
-	margin-left: 0;
-	padding-left: 10px;
-	background: #fff;
-	color: #FF8100;
-	font-size: 20px;
 	-moz-box-shadow: 0 3px 0 #dbdbdb, 0 3px 10px #999;
 	-webkit-box-shadow: 0 3px 0 #DBDBDB inset, 0 3px 10px #999 inset;
 	box-shadow: 0 3px 0 #DBDBDB inset, 0 3px 10px #999 inset;
@@ -241,7 +227,142 @@ input:focus{
 	-moz-border-radius: 5px 5px 5px 5px;
 	border-radius: 5px 5px 5px 5px;
 }
+/**** Options ****/
 
+#options {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0;
+	height: 50px;
+	width: 1012px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+#options h3 {
+  margin-bottom: 0.2em;
+  font-size: 15px;
+}
+
+#options h4 { 
+  font-weight: bold;
+}
+
+#options ul {
+	height: 50px;
+  padding:0;
+  list-style: none;
+  float: left;
+  margin:0 0 0 3px;
+  overflow: hidden;
+	background: #FF8100;
+	-moz-box-shadow: 0 3px 0 #dbdbdb inset, 0 3px 10px #999 inset;
+	-webkit-box-shadow: 0 3px 0 #DBDBDB inset, 0 3px 10px #999 inset;
+	box-shadow: 0 3px 0 #DBDBDB inset, 0 3px 10px #999 inset;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+
+}
+
+#options li {
+  float: left;
+  margin:3px 0 0 0;
+  width: 50px;
+  height: 47px;
+  border-radius: 5px;
+
+
+
+}
+#options p {
+	position: absolute;
+	top: -30px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	margin-left: 50px;
+	text-shadow: none;
+	color: #FF8100;
+}
+#options li img{
+margin: 7px 0 0 10px;
+}
+
+#options li a {
+  display: block;
+  margin-top: 2px;
+  width: 50px;
+  height: 45px;
+  font-weight: normal;
+
+}
+
+
+#options li a.selected,  #options li a:hover{
+	background: #DB7611;
+}
+
+
+/* Combination filter options*/
+
+#options .option-combo {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+
+#options .option-combo ul {
+  margin-right: 20px;
+  display: inline-block;
+}
+
+#options .option-combo h2,
+#options .option-combo h4 {
+  line-height: 34px;
+  margin-bottom: 0;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+#searchbutton:hover {
+    background: #149593;
+}
+#filtersearch {
+	margin: 5px 0;
+	width: 188px;
+	height: 50px;
+	-moz-box-shadow: 0 3px 0 #dbdbdb, 0 3px 10px #999;
+	-webkit-box-shadow: 0 3px 0 #DBDBDB inset, 0 3px 10px #999 inset;
+	box-shadow: 0 3px 0 #DBDBDB inset, 0 3px 10px #999 inset;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+
+}
+#filtersearch input[type="text"]{
+	height: 50px;
+	width: 188px;
+	margin-left: 0;
+	padding-left: 10px;
+	background: #fff;
+	color: #FF8100;
+	font-size: 20px;
+	background: transparent;
+}
+#filtersearch input[type="button"] {
+position: absolute;
+top: 10px;
+right: 10px;
+width: 30px;
+height: 30px;
+background: url(../images/clear.png) no-repeat;
+opacity: .5;
+text-indent: -99999px;
+}
 #filtersearch fieldset{
 	width: 100%;
 	height: 50px;
@@ -254,7 +375,7 @@ input:focus{
 
 #content {
 	position: absolute;
-	top: 160px;
+	top: 70px;
 	left: 0;
 	padding: 0;
 	width: 100%;
@@ -274,31 +395,30 @@ input:focus{
 	position: relative;
 }
 
-/* screens smaller than 640 */
-@media screen and (max-width: 640px) {
-
-
-
-  
-  #content {
-    padding-left: 10px;
-  }
-}
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-
-	#content {
-	position: absolute;
-	top: 190px;
-	left: 50px;
-	width: 800px;
-	margin: 0 auto;
-	border-top: 1px solid #dbdbdb;
-	 
-}
-}
+#container {
+width: 1210px;
+margin: 0 auto; }
+@media screen and (max-width: 320px) {
+#container  {
+width: 300px;
+margin: 0 10px; } }
+@media screen and (min-width: 321px) {
+#container  {
+width: 460px;
+margin: 0 10px; } }
+@media screen and (min-width: 486px) {
+#container {
+width: 486px;
+margin: 0 auto; } }
+@media screen and (min-width: 726px) {
+#container  {
+width: 726px; } }
+@media screen and (min-width: 968px) {
+#container  {
+width: 968px; } }
+@media screen and (min-width: 1210px) {
+#container  {
+width: 1210px; } } 
 
 .usercontent{
 	margin: 0 0 30px 0;
@@ -325,7 +445,16 @@ pre, code {
   font-style: italic;
 }
 
+/**** Isotope filtering ****/
 
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
 /**** Transitions ****/
 
 .transitions-enabled.masonry,
@@ -858,114 +987,6 @@ div.moving {
 .homepage .item:nth-child(10n+10):hover .minimise2 {
 	background: #777;
 
-}
-/**** Example Options ****/
-
-#options {
-	position: relative;
-	margin: 35px auto;
-	padding: 0;
-	background: #FF8100;
-	height: 70px;
-	width: 200px;
-	border-radius: 5px;
-	box-shadow: 0 3px 0 #DBDBDB inset, 0 3px 10px #999 inset;
-}
-
-#options h3 {
-  margin-bottom: 0.2em;
-  font-size: 15px;
-}
-
-#options h4 { 
-  font-weight: bold;
-}
-
-#options ul {
-  padding:0;
-  list-style: none;
-  float: left;
-  margin: 0;
-  overflow: hidden;
-
-}
-
-#options li {
-  float: left;
-  margin:3px 0 0 0;
-  width: 50px;
-  height: 67px;
-
-}
-#options li:nth-child(1), #options li a:nth-child(1){
-	border-radius: 5px 0 0 5px;
-}
-#options li:nth-child(2), #options li a:nth-child(2){
-	border-radius: 0 5px 5px 0;
-}
-#options li:hover{
-background: #DB7611;
-}
-#options p {
-	position: absolute;
-	top: -30px;
-	margin: 0;
-	padding: 0;
-	text-align: left;
-	margin-left: 50px;
-	text-shadow: none;
-	color: #FF8100;
-}
-#options li img{
-margin: 17px 0 0 0;
-}
-
-#options li a {
-  display: block;
-  width: 50px;
-  height: 67px;
-  font-weight: normal;
-
-}
-
-#options li a:hover {
-}
-
-#options li a:active {
-
-
-}
-
-#options li a {
-}
-
-#options li a.selected {
-	width: 50px;
-  	height: 67px;
-	background: #DB7611;
-}
-
-
-/* Combination filter options*/
-
-#options .option-combo {
-  display: inline-block;
-  float: left;
-  margin-right: 10px;
-}
-
-#options .option-combo ul {
-  margin-right: 20px;
-  display: inline-block;
-}
-
-#options .option-combo h2,
-#options .option-combo h4 {
-  line-height: 34px;
-  margin-bottom: 0;
-  margin-right: 5px;
-  display: inline-block;
-  vertical-align: top;
 }
 
 .variable-sizes .item.width2 { width: 230px; }
