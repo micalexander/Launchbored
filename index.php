@@ -56,16 +56,18 @@ foreach ($feed_map as $feed_url => $value)
      }
      else
      {
-         $item = $itemMap[$feed_url];
+         $item = $itemMap[$feed_url];  
+
          // we have a feed
          ?>
          
-         <div class="item element feed <?php echo $value['bored_cat_type']; ?> <?php echo $value['bored_cat_type2']; ?>" data-symbol="<?php echo $urls[$feed_url] ?>" name="<?php echo $urls[$feed_url] ?>">
+         <div class="item element feed <?php echo $value['bored_cat_type']; ?> <?php echo $value['bored_cat_type2']; ?>" data-symbol="<?php echo $urls[$feed_url] ?>" title="<?php echo strtolower($item->get_title()); ?>" name="<?php echo $urls[$feed_url] ?>">
 
+        
            <div class="minimise">
-             <strong id="amount"><?php echo 4 ?></strong>
+             <strong id="amount"><?php echo 3 ?></strong>
                <img class="channel1" src="images/boreds/<?php echo $urls[$feed_url] ?>.png"/>
-             <div class="minimise2"><h2><?php echo $item->get_title(); ?></h2>
+             <div class="minimise2"><h2 class="headline"><?php echo $item->get_title(); ?></h2>
                <div class="launch">
                <a href="<?php echo $value['url']; ?>" target="_blank" title="go to <?php echo $urls[$feed_url] ?>.com">
                <img src="images/launch.png"/></a>
@@ -82,6 +84,7 @@ foreach ($feed_map as $feed_url => $value)
                  <a href="<?php echo $item->get_permalink(); ?>" target="_blank">
                  <img class="channel" src="images/boreds/<?php echo $urls[$feed_url] ?>.png" title="Go to <?php echo $urls[$feed_url] ?>.com"/></a><br>
                  <a href="<?php echo $item->get_permalink(); ?>" target="_blank"><h2><?php echo $item->get_title(); ?></h2></a><br>
+                 <!-- <img src="<?php echo $file; ?>"> -->
                  <p><?php echo $item->get_description(); ?></p>
                  <div class="launch">
                    <img class="userlaunch" src="images/minimize.png" title="minimize" />
@@ -97,7 +100,7 @@ foreach ($feed_map as $feed_url => $value)
 
          </div>
          <?php
-     }
+          }
 }
 
 ?>

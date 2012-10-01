@@ -6,11 +6,13 @@
 <script src="../jquery.isotope.min.js"></script>
 <!-- <script src="../js/fake-element.js"></script> -->
 <script>
+
 $("#channel").keyup(function() {
 
     var search = $(this).val().toLowerCase().trim();
     $('#container').isotope({
-        filter: "[name*='"+search+"']"
+        filter: "[name*='"+search+"'],[class*='"+search+"'],[title*='"+search+"']"
+      
     });
 
 });
@@ -199,24 +201,13 @@ $('#filters a').click(function(){
         $('.item').removeClass('selected large');
         $('.maximise').hide();
         $('.minimise').show();
-      });
+});
       $('#expandall').click(function(){
         $(this).toggle();
          $(this).show();
         $container.isotope('reLayout');
-      });
-        $('.wizard-img').click(
-    function() {
-        if ($(this).hasClass('on')) {
-            $(this).removeClass('on').addClass('off');
-        } else if ($(this).hasClass('off')) {
-            $(this).removeClass('off');
-        } else {
-            $(this).addClass('on');
-        }
-    }
-);
-        
+});
+              
     
 
  });
