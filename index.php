@@ -21,7 +21,7 @@ foreach ($feed_map as $feed_url => $value)
     if (!array_key_exists($feed_url, $urls))
     {
         ?>
-        <div class="item element <?php echo $value['bored_cat_type']; ?> <?php echo $value['bored_cat_type2']; ?>" data-symbol="<?php echo $value['bored_name']; ?>" name="<?php echo $value['bored_name']; ?>">
+        <div class="item element <?php echo $value['bored_cat_type']; ?> <?php echo $value['bored_cat_type2']; ?> <?php echo $value['bored_cat_type3']; ?>" data-symbol="<?php echo $value['bored_name']; ?>" name="<?php echo $value['bored_name']; ?>">
     
         <div class="minimise"><img class="channel1" src="images/boreds/<?php echo $value['bored_name']; ?>.png"/>
  
@@ -61,7 +61,7 @@ foreach ($feed_map as $feed_url => $value)
          // we have a feed
          ?>
          
-         <div class="item element feed <?php echo $value['bored_cat_type']; ?> <?php echo $value['bored_cat_type2']; ?>" data-symbol="<?php echo $urls[$feed_url] ?>" title="<?php echo strtolower($item->get_title()); ?>" name="<?php echo $urls[$feed_url] ?>">
+         <div class="item element feeds <?php echo $value['bored_cat_type']; ?> <?php echo $value['bored_cat_type2']; ?> <?php echo $value['bored_cat_type3']; ?>" data-symbol="<?php echo $urls[$feed_url] ?>" title="<?php echo strtolower($item->get_title()); ?>" name="<?php echo $urls[$feed_url] ?>">
 
         
            <div class="minimise">
