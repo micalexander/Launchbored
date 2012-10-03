@@ -56,14 +56,15 @@ foreach ($feed_map as $feed_url => $value)
      }
      else
      {
-         $item = $itemMap[$feed_url];  
-
+         $item = $itemMap[$feed_url];
+         
+         if ($item)
+         {
          // we have a feed
          ?>
          
          <div class="item element feeds <?php echo $value['bored_cat_type']; ?> <?php echo $value['bored_cat_type2']; ?> <?php echo $value['bored_cat_type3']; ?>" data-symbol="<?php echo $urls[$feed_url] ?>" title="<?php echo strtolower($item->get_title()); ?>" name="<?php echo $urls[$feed_url] ?>">
 
-        
            <div class="minimise">
              <strong id="amount"><?php echo 3 ?></strong>
                <img class="channel1" src="images/boreds/<?php echo $urls[$feed_url] ?>.png"/>
@@ -100,7 +101,8 @@ foreach ($feed_map as $feed_url => $value)
 
          </div>
          <?php
-          }
+            }
+        }
 }
 
 ?>

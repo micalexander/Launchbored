@@ -2,9 +2,8 @@
 </div>
 </section> <!-- #content -->
    <script src="js/modernizr-transitions.js"></script>
-  <script src="../js/jquery-1.7.1.min.js"></script>
-<script src="../jquery.isotope.min.js"></script>
-<!-- <script src="../js/fake-element.js"></script> -->
+  <script src="js/jquery-1.7.1.min.js"></script>
+<script src="jquery.isotope.min.js"></script>
 <script>
 
 $("#channel").keyup(function() {
