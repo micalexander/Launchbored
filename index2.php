@@ -10,10 +10,12 @@ $controller = null;
 switch ($current_page)
 {
     case 'ajax': break;
-    case 'index':
     default:
-        $controller = new BoredController($database, $simplepie);
+        $current_page = 'homepage';
+        $controller = new BoredController($database, $simplepie, $view);
 }
+
+$view->assign('current_page', $current_page);
 
 if ($controller)
 {

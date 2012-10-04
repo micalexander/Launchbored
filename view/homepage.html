@@ -1,0 +1,85 @@
+
+{foreach $feed_map as $feed_url => $value}
+    {if !array_key_exists($feed_url, $urls)}
+        <div class="item element {$value.bored_cat_type} {$value.bored_cat_type2} {$value.bored_cat_type3}" data-symbol="{$value.bored_name}" name="{$value.bored_name}">
+            <div class="minimise"><img class="channel1" src="images/boreds/{$value.bored_name}.png"/>
+                <div class="minimise2">
+                    <h2>See whats new on {$value.bored_name}.</h2>
+                    <div class="launch">
+                        <a href="{$value.url}" target="_blank" title="go to {$value.bored_name}.com">
+                        <img src="images/launch.png"/></a>
+                        <a href="{$value.url}" target="_blank" title="read feed">
+                        <img src="images/feed.png"/></a>
+                        <img src="images/maximize.png" title="maximize" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="maximise">
+                <div class="innermaxmask">
+                    <div class="innermax">
+                        <img class="channel" src="images/boreds/{$value.bored_name}.png"/><br />
+                        <a href="{$value.url}">
+                            <h2>See whats new on {$value.bored_name}.</h2>
+                        </a>
+                        <div class="launch">
+                            <img class="userlaunch" src="images/minimize.png" title="minimize" />
+                            <a href="{$value.url}" target="_blank" title="go to feed page">
+                            <img class="userlaunch" src="images/feed.png"/></a>
+                            <a href="{$value.url}" target="_blank" title="go to {$value.bored_name}.com homepage">
+                            <img class="userlaunch" src="images/launch.png"/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {else}
+        {assign var="items" value=$item_map[$feed_url]}
+        {if $items}
+        <div class="item element feeds {$value.bored_cat_type} {$value.bored_cat_type2} {$value.bored_cat_type3}" data-symbol="{$value.bored_name}" title="{$items[0]->get_title()|strtolower}" name="{$value.bored_name}">
+            <div class="minimise">
+                <strong id="amount">{count($items[0]->feed->data.items)}</strong>
+                <img class="channel1" src="images/boreds/{$value.bored_name}.png" />
+                <div class="minimise2">
+                    <h2 class="headline">{$items[0]->get_title()}</h2>
+                    <div class="launch">
+                        <a href="{$value.url}" target="_blank" title="go to {$value.bored_name}.com"><img src="images/launch.png"/></a>
+                        <a href="{$items[0]->get_permalink()}" target="_blank" title="read feed"><img src="images/feed.png"/></a>
+                        <img src="images/maximize.png" title="maximize" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="maximise">
+                <div class="innermaxmask">
+                    <div class="innermax">
+                        <a href="{$value.url}" target="_blank" title="go to {$value.bored_name}.com"><img class="channel" src="images/boreds/{$value.bored_name}.png" title="Go to {$value.bored_name}.com"/></a>
+                       
+                        {foreach $items as $item}
+                            {assign var="media_group" value=$item->get_item_tags('', 'enclosure')}
+                            {assign var="item_image_name" value=$media_group[0]['attribs']['']['url']}
+
+                            <article data-image="{$item_image_name}">
+                                <a href="{$item->get_permalink()}" target="_blank">
+                                    <h2 class="headline">{$item->get_title()}</h2>
+                                </a>
+                                <br />
+                                <div>{$item->get_description()|strip_tags:'<a><p>'}</div>
+                                <div class="launch">
+                                    <img class="userlaunch" src="images/minimize.png" title="minimize" />
+                                    <a href="{$item->get_permalink()}" target="_blank" title="go to feed page">
+                                        <img class="userlaunch" src="images/feed.png"/>
+                                    </a>
+                                    <a href="{$value.url}" target="_blank" title="go to {$value.bored_name}.com homepage">
+                                        <img class="userlaunch" src="images/launch.png"/>
+                                    </a>
+                                </div>
+                            </article>
+                        {/foreach}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {/if}
+    {/if}
+{/foreach}

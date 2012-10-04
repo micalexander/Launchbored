@@ -7,11 +7,13 @@ class BoredController
 {
     private $database;
     private $feed_loader;
+    private $view;
     
-    public function __construct($database, $feed_loader)
+    public function __construct($database, $feed_loader, $view)
     {
         $this->database = $database;
         $this->feed_loader = $feed_loader;
+        $this->view = $view;
     }
     
     /**
@@ -35,24 +37,29 @@ class BoredController
             }
         }
         
-        $feed = $this->feed_loader;
-        
-        
         // we want all feeds on the homepage, but we only want 1 article per feed url
         $this->feed_loader->set_feed_url(array_keys($urls));
-        $this->feed_loader->set_item_limit(1);
+        $this->feed_loader->set_item_limit(5);
         
-        $success = $this->feed_loader->init();
+        $this->feed_loader->init();
         $this->feed_loader->handle_content_type();
         
         
-        ob_start();
-        include_once('view/homepage.php');
-        $page_content = ob_get_clean();
+        $itemMap = array();
+        foreach ($this->feed_loader->get_items() as $item)
+        {
+            if (!array_key_exists($item->feed->feed_url, $itemMap))
+            {
+                $itemMap[$item->feed->feed_url] = array();
+            }
+            $itemMap[$item->feed->feed_url][] = $item;
+        }
         
-        // fetch the view file content
-        include_once('view/layout.php');
+        $this->view->assign('feed_map', $feed_map);
+        $this->view->assign('item_map', $itemMap);
+        $this->view->assign('urls', $urls);
+        $this->view->clearAllCache();
         
-        // print the parsed view content
+        print $this->view->fetch('layout.html');
     }
 }

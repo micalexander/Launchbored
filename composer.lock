@@ -1,0 +1,17 @@
+{
+    "hash": "b52449f66758a8b5726c3af497ba836e",
+    "packages": [
+        {
+            "package": "smarty/smarty",
+            "version": "v3.1.12"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ]
+}

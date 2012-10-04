@@ -2,6 +2,7 @@
 
 require_once("config/parameters.php");
 require_once('php/autoloader.php');
+require_once('vendor/autoload.php');
 require_once('includes/functions.php');
 
 // Load out custom autoloader file
@@ -19,3 +20,8 @@ $database = new Database(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 $current_page = (isset($_REQUEST['page']))
     ? $_REQUEST['page']
     : 'index';
+    
+$view = new Smarty();
+$view->setTemplateDir('view/');
+$view->setCacheDir('cache/smarty/cache/');
+$view->setCompileDir('cache/smarty/compiled/');
