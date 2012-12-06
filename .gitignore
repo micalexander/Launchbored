@@ -11,3 +11,4 @@ launchbored.sublime-project
 launchbored.sublime-workspace
 config/parameters.php
 vendor
+.DS_Store

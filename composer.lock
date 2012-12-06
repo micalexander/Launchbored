@@ -1,9 +1,47 @@
 {
-    "hash": "b52449f66758a8b5726c3af497ba836e",
+    "hash": "8565c850d34874bc0c71f54e58f5aedd",
     "packages": [
         {
-            "package": "smarty/smarty",
-            "version": "v3.1.12"
+            "name": "smarty/smarty",
+            "version": "v3.1.12",
+            "source": {
+                "type": "svn",
+                "url": "http://smarty-php.googlecode.com/svn",
+                "reference": "/tags/v3.1.12/@4664"
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "time": "2012-09-25 22:13:16",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "distribution/libs/Smarty.class.php"
+                ]
+            },
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Monte Ohrt",
+                    "email": "monte@ohrt.com"
+                },
+                {
+                    "name": "Uwe Tews",
+                    "email": "uwe.tews@googlemail.com"
+                },
+                {
+                    "name": "Rodney Rehm",
+                    "email": "rodney.rehm@medialize.de"
+                }
+            ],
+            "description": "Smarty - the compiling PHP template engine",
+            "homepage": "http://www.smarty.net",
+            "keywords": [
+                "templating"
+            ]
         }
     ],
     "packages-dev": null,

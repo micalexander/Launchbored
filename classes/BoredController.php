@@ -8,12 +8,14 @@ class BoredController
     private $database;
     private $feed_loader;
     private $view;
+
     
     public function __construct($database, $feed_loader, $view)
     {
         $this->database = $database;
         $this->feed_loader = $feed_loader;
         $this->view = $view;
+        
     }
     
     /**
