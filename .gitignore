@@ -15,3 +15,4 @@ vendor
 css/styles/.sass-cache/*
 codekit-config.json
 .sass-cache/*
+css/styles/config.rb
