@@ -12,4 +12,4 @@ launchbored.sublime-workspace
 config/parameters.php
 vendor
 .DS_Store
-.sass-cache/*
+css/styles/.sass-cache/*
