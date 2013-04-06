@@ -4,8 +4,8 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 
-@import "compass/reset";
-@import "compass/css3";
+@import "compass";
+
 
 form * {
 	background: transparent;
@@ -206,7 +206,7 @@ h3, p, ul, ol, pre, dl {
 	right: 10px;
 	width: 30px;
 	height: 30px;
-	background: url(../images/clear.png) no-repeat;
+	background: url(/images/clear.png) no-repeat;
 	opacity: 1;
 	text-indent: -99999px;
 }
@@ -239,11 +239,17 @@ h3, p, ul, ol, pre, dl {
 	#logo {
 		width: 65px;
 		height: 50px;
-		background: url("../images/lillogo.png") no-repeat scroll center center #ffffff;
+		background: url("/images/lillogo.png") no-repeat scroll center center #ffffff;
 	}
 	#order{
 		left: 85px;
 		width: 292px;
+	}
+	#controls{
+	position: absolute;
+	top: 0;
+	left: 65px;
+	width: 302px;
 	}
 	#options {
 		position: absolute;
@@ -286,11 +292,17 @@ h3, p, ul, ol, pre, dl {
 	#logo {
 		width: 65px;
 		height: 50px;
-		background: url("../images/lillogo.png") no-repeat scroll center center #ffffff;
+		background: url("/images/lillogo.png") no-repeat scroll center center #ffffff;
 	}
 	#order{
 		left: 85px;
 		width: 292px;
+	}
+	#controls{
+	position: absolute;
+	top: 0;
+	left: 65px;
+	width: 302px;
 	}
 	#options {
 		position: absolute;
@@ -333,7 +345,7 @@ h3, p, ul, ol, pre, dl {
 	#logo {
 		width: 65px;
 		height: 50px;
-		background: url("../images/lillogo.png") no-repeat scroll center center #ffffff;
+		background: url("/images/lillogo.png") no-repeat scroll center center #ffffff;
 	}
 	
 	#order{
@@ -344,12 +356,12 @@ h3, p, ul, ol, pre, dl {
 		margin: 0 auto; } }
 @media screen and (min-width: 900px) {
 	#topwrapper {
-	width: 1270px;
+		width: 1270px;
 	}
 	#logo {
 		width: 65px;
 		height: 50px;
-		background: url("../images/lillogo.png") no-repeat scroll center center #ffffff;
+		background: url("/images/lillogo.png") no-repeat scroll center center #ffffff;
 	}
 	.not-mobile{
 		display: block;
@@ -366,6 +378,12 @@ h3, p, ul, ol, pre, dl {
 		width: 992px;
 		height: 50px;
 		margin: 5px auto;
+	}
+	#controls{
+		position: absolute;
+		top: 0;
+		left: 265px;
+		width: 1205px;
 	}
 	#options {
 		position: absolute;
@@ -406,10 +424,11 @@ h3, p, ul, ol, pre, dl {
 	#topwrapper {
 		width: 1270px;
 	}
+	
 	#logo {
 		width: 65px;
 		height: 50px;
-		background: url("../images/lillogo.png") no-repeat scroll center center #ffffff;
+		background: url("/images/lillogo.png") no-repeat scroll center center #ffffff;
 	}
 	.not-mobile{
 		display: block;
@@ -423,6 +442,12 @@ h3, p, ul, ol, pre, dl {
 		width: 1202px;
 		height: 50px;
 		margin: 5px auto;
+	}
+	#controls{
+		position: absolute;
+		top: 0;
+		left: 65px;
+		width: 1205px;
 	}
 	#options {
 		position: absolute;
@@ -490,7 +515,7 @@ h3, p, ul, ol, pre, dl {
 	#logo {
 		width: 270px;
 		height: 50px;
-		background: url("../images/logo.png") no-repeat scroll center center #ffffff;
+		background: url("/images/logo.png") no-repeat scroll center center #ffffff;
 	}
 	.not-mobile{
 		display: block;
@@ -504,6 +529,12 @@ h3, p, ul, ol, pre, dl {
 		width: 1202px;
 		height: 50px;
 		margin: 5px auto;
+	}
+	#controls{
+		position: absolute;
+		top: 0;
+		left: 265px;
+		width: 1205px;
 	}
 	#options {
 		position: absolute;
