@@ -13,3 +13,5 @@ config/parameters.php
 vendor
 .DS_Store
 css/styles/.sass-cache/*
+codekit-config.json
+.sass-cache/*
