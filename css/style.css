@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 html {overflow-y: scroll;}
-body { 
+body {
   	font-family: verdana, sans-serif;
 	font-size: 16px;
 	font-style: normal;
@@ -10,7 +10,7 @@ body {
 	background-color: #eeeeee;
 	padding: 0;
 	margin: 0;
-	
+
 }
 
 article, aside, details, figcaption, figure,
@@ -37,7 +37,7 @@ p {
 	padding:5px;
 	font-size: 16px;
 	color: #3099f0;
-		
+
 }
 
 h1, h2 {
@@ -69,7 +69,7 @@ img {
 #logo {
 	position: absolute;
 	top: 5px;
-	left: 20px;	
+	left: 20px;
 	padding: 0;
 	height: 50px;
 	width:270px;
@@ -77,7 +77,7 @@ img {
 }
 
 
-#top { 
+#top {
 
 	position: fixed;
 	top: 0;
@@ -87,15 +87,15 @@ img {
 	margin: 0 auto;
 	z-index: 6;
 	border-bottom: 1px solid #ddd;
-	background: #fff; 
+	background: #fff;
 	 -moz-box-shadow: 0 3px 5px #bbb;
 	 -webkit-box-shadow:0 5px 5px #bbb;
 	 box-shadow:0 3px 5px #bbb;
 
 
-	
+
 }
-#topwrapper { 
+#topwrapper {
 	position: relative;
 	width: 1490px;
 	height: 70px;
@@ -129,9 +129,9 @@ input:focus{
 	-webkit-border-radius: 5px 5px 5px 5px;
 	-moz-border-radius: 5px 5px 5px 5px;
 	border-radius: 5px 5px 5px 5px;
-	
+
 }
-#searchbutton {	
+#searchbutton {
 	position: absolute;
 	vertical-align: 1px;
 	right: 0;
@@ -181,7 +181,7 @@ input:focus{
   font-size: 15px;
 }
 
-#options h4 { 
+#options h4 {
   font-weight: bold;
 }
 
@@ -339,10 +339,10 @@ input:-ms-input-placeholder {
 	padding: 0;
 	width: 100%;
 	margin: 0 auto;
-	margin-top: 20px; 
+	margin-top: 20px;
 	color: #999;
 	text-shadow: 1px 1px #fff;
-	 
+
 }
 
 #containerwrapper{
@@ -350,7 +350,7 @@ input:-ms-input-placeholder {
 }
 
 @media screen and (max-width: 320px) {
-	#topwrapper { 
+	#topwrapper {
 		position: relative;
 		width: 395px;
 		height: 70px;
@@ -396,7 +396,7 @@ input:-ms-input-placeholder {
 		width: 400px;
 		margin: 0 auto; } }
 @media screen and (min-width: 321px) {
-	#topwrapper { 
+	#topwrapper {
 		position: relative;
 		width: 395px;
 		height: 70px;
@@ -442,7 +442,7 @@ input:-ms-input-placeholder {
 		width: 400px;
 		margin: 0 auto; } }
 @media screen and (min-width: 486px) {
-	#topwrapper { 
+	#topwrapper {
 		position: relative;
 		width: 395px;
 		height: 70px;
@@ -453,7 +453,7 @@ input:-ms-input-placeholder {
 		height: 50px;
 		background: url("../images/lillogo.png") no-repeat scroll center center #ffffff;
 	}
-	
+
 	#order{
 		left: 85px;
 	}
@@ -534,7 +534,7 @@ input:-ms-input-placeholder {
 		display: block;
 		visibility: visible;
 	}
-	
+
 	#order{
 		position: absolute;
 		top: 0;
@@ -597,15 +597,15 @@ input:-ms-input-placeholder {
 	}
 	#container  {
 		width: 1200px;
-		margin: 0 auto; 
-} } 
+		margin: 0 auto;
+} }
 @media screen and (min-width: 1600px) {
-	#topwrapper { 
+	#topwrapper {
 	position: relative;
 	width: 1470px;
 	height: 70px;
 	margin: 0 auto;
-	
+
 	}
 	#logo {
 		width: 270px;
@@ -616,7 +616,7 @@ input:-ms-input-placeholder {
 		display: block;
 		visibility: visible;
 	}
-	
+
 	#order{
 		position: absolute;
 		top: 0;
@@ -683,7 +683,7 @@ input:-ms-input-placeholder {
 
 .usercontent{
 	margin: 0 0 30px 0;
-	width: 90%;	
+	width: 90%;
 }
 .copy h2 {
     clear: both;
@@ -772,7 +772,7 @@ div.moving {
 .homepage .item .minimise2 {
 	color: #FF8100;
 }
-.homepage .item h1, 
+.homepage .item h1,
 .homepage .item h2,
 .homepage .item h3{
 	text-align: center;
@@ -791,7 +791,7 @@ div.moving {
 	font-weight: normal;
 	margin: 0;
 	padding: 10px;
-	
+
 }
 .homepage .minimise2 .launch{
 	position: absolute;
@@ -806,18 +806,18 @@ div.moving {
 	border: none;
 	background: #3099F0;
 	border-radius: 15px;
-	-webkit-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
-   -moz-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
-    -ms-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
-     -o-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+	-webkit-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+   -moz-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -ms-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -o-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
         transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
-	
 
-	
+
+
  }
  .homepage .minimise2 .launch:hover{
 	width: 100px;
-	opacity: 1;	
+	opacity: 1;
  }
  .homepage .maximise .innermax .launch{
 	position: absolute;
@@ -830,10 +830,10 @@ div.moving {
 	overflow: hidden;
 	border: none;
 	border-radius: 15px;
-	-webkit-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
-   -moz-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
-    -ms-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
-     -o-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+	-webkit-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+   -moz-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -ms-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -o-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
         transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
 }
 
@@ -847,7 +847,7 @@ div.moving {
  .homepage .maximise .innermax .userlaunch:hover{
 	opacity: 1;
 
-	
+
  }
 .homepage .item .maximise {
 	padding: 5px;
@@ -870,17 +870,17 @@ div.moving {
           border-radius: 3px 3px 3px 3px;
 }
 .homepage .maximise .innermax img{
-	
+
 	max-width: 300px;
 	max-height: 300px;
 	border: none;
 	padding: 0 10px 0 0;
 	margin: 5px;
 
-	
+
  }
  .homepage .maximise .innermax .channel{
- 	
+
  	padding: 5px;
  	border-radius: 5px;
  	border: 1px solid #fff;
@@ -896,10 +896,10 @@ div.moving {
  }
  .homepage .maximise a, .homepage .maximise .innermax a h2{
  	text-decoration: underline;
-	text-shadow: 1px 1px #fff;	
+	text-shadow: 1px 1px #fff;
 
  }
- 	
+
 .innermax {
 
 	position: relative;
@@ -928,7 +928,7 @@ div.moving {
           border-radius: 5px 5px 5px 5px;
 }
 .homepage .item .minimise{
-	
+
 	 padding: 0 0 5px 0;
  	 width: 180px;
 	 height: 95px;
@@ -949,7 +949,7 @@ div.moving {
 	-webkit-border-radius: 5px 5px 5px 5px;
      -moz-border-radius: 5px 5px 5px 5px;
           border-radius: 5px 5px 5px 5px;
-		  
+
 }
 .item:hover .minimise .channel1,  .item:hover #amount{
 	margin-top: -205px;
@@ -957,7 +957,7 @@ div.moving {
 	-moz-transform: rotate(-6deg);
 	transform: rotate(-6deg);
 
- 
+
 }
 
 .homepage .item .minimise2 {
@@ -990,22 +990,22 @@ div.moving {
 	-webkit-border-radius: 5px 5px 5px 5px;
      -moz-border-radius: 5px 5px 5px 5px;
           border-radius: 5px 5px 5px 5px;
-	 
-}
- 
 
- 
+}
+
+
+
 .homepage #amount {
-	position: absolute; 
-    top: 10px; 
-    left: 135px; 
+	position: absolute;
+    top: 10px;
+    left: 135px;
     width: 30px;
 	height: 27px;
 	padding-top: 3px;
 	text-shadow: none;
 	text-align: center;
 	color: #ffffff;
-	background: #3099f0; 
+	background: #3099f0;
  	 -webkit-border-radius: 15px 15px 15px 15px;
      -moz-border-radius: 15px 15px 15px 15px;
      border-radius: 15px 15px 15px 15px;
@@ -1020,7 +1020,7 @@ div.moving {
 	width: 17px;
 	height: 9px;
 
-}	
+}
 
 /*wide bored*/
 .homepage .item:nth-child(4n){
@@ -1056,7 +1056,7 @@ div.moving {
 	-webkit-border-radius: 5px 5px 5px 5px;
      -moz-border-radius: 5px 5px 5px 5px;
           border-radius: 5px 5px 5px 5px;
-		  
+
 }
 .item:nth-child(4n):hover .minimise .channel1,  .item:nth-child(4n):hover #amount{
 	margin-top: -205px;
@@ -1064,7 +1064,7 @@ div.moving {
 	-moz-transform: rotate(-6deg);
 	transform: rotate(-6deg);
 
- 
+
 }
 
 .homepage .item:nth-child(4n) .minimise2 {
@@ -1097,20 +1097,20 @@ div.moving {
           border-radius: 5px 5px 5px 5px;
 }
 .homepage .item:nth-child(4n) #amount {
-	position: absolute; 
-    top: 10px; 
-    left: 335px; 
+	position: absolute;
+    top: 10px;
+    left: 335px;
     width: 30px;
 	height: 27px;
 	padding-top: 3px;
 	text-align: center;
 	color: #ffffff;
-	background: #3099f0; 
+	background: #3099f0;
  	 -webkit-border-radius: 15px 15px 15px 15px;
      -moz-border-radius: 15px 15px 15px 15px;
      border-radius: 15px 15px 15px 15px;
 
-	 
+
 }
 /*long bored*/
 .homepage .item:nth-child(4n+1){
@@ -1146,7 +1146,7 @@ div.moving {
 	-webkit-border-radius: 5px 5px 5px 5px;
      -moz-border-radius: 5px 5px 5px 5px;
           border-radius: 5px 5px 5px 5px;
-		  
+
 }
 .item:nth-child(4n+1):hover .minimise .channel1,  .item:nth-child(4n+1):hover #amount{
 	margin-top: -205px;
@@ -1154,7 +1154,7 @@ div.moving {
 	-moz-transform: rotate(-6deg);
 	transform: rotate(-6deg);
 
- 
+
 }
 
 .homepage .item:nth-child(4n+1) .minimise2 {
@@ -1188,7 +1188,7 @@ div.moving {
 
 }
 
- 
+
 .homepage .item:nth-child(10n+1):hover .minimise2 {
 	background: #f07901;
 }

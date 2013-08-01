@@ -2,7 +2,7 @@ $("#channel").keyup(function() {
     var search = $(this).val().toLowerCase().trim();
     $('#container').isotope({
         filter: "[name*='"+search+"'],[class*='"+search+"'],[title*='"+search+"']"
-      
+
     });
 });
 
@@ -52,7 +52,7 @@ if ( this.options.masonry.cornerStampSelector ) {
 
 $(function(){
   var $container = $('#container');
-  
+
   // add randomish size classes
   $container.find('.item').each(function(){
     var $this = $(this),
@@ -168,8 +168,8 @@ $('.item').click(function () {
     var articles = $(this).find('article');
     articles.each(function(){
         var imageUrl = $(this).attr('data-image');
-    
-        if (imageUrl != '')
+
+        if (imageUrl !== '')
         {
             $('<img src="'+imageUrl+'" />').prependTo($(this));
         }
@@ -200,7 +200,7 @@ $('.item').click(function () {
         $('.maximise').hide();
         $('.minimise').show();
     });
-    
+
     $('#expandall').click(function(){
         $(this).toggle();
         $(this).show();

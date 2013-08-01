@@ -1,9 +1,3 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
-
 @import "compass";
 
 
@@ -32,7 +26,7 @@ input:-ms-input-placeholder {
 }
 html {overflow-y: scroll;}
 
-body { 
+body {
   	font-family: verdana, sans-serif;
 	font-size: 16px;
 	font-style: normal;
@@ -41,7 +35,7 @@ body {
 	background-color: #eeeeee;
 	padding: 0;
 	margin: 0;
-	
+
 }
 a {
   color: #3099f0;
@@ -61,7 +55,7 @@ p {
 	padding:5px;
 	font-size: 16px;
 	color: #3099f0;
-		
+
 }
 
 h1, h2 {
@@ -86,7 +80,7 @@ h3 {
 h3, p, ul, ol, pre, dl {
   margin-bottom: 1.0em;
 }
-#top { 
+#top {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -95,10 +89,10 @@ h3, p, ul, ol, pre, dl {
 	margin: 0 auto;
 	z-index: 6;
 	border-bottom: 1px solid #ddd;
-	background: #fff; 
+	background: #fff;
 	@include box-shadow(0 3px 5px #bbb);
 }
-#topwrapper { 
+#topwrapper {
 	position: relative;
 	width: 1490px;
 	height: 70px;
@@ -139,14 +133,14 @@ h3, p, ul, ol, pre, dl {
 		margin: 0;
 		}
 
-		li{ 
+		li{
 		float: left;
 		margin: 0;
 		width: 50px;
 		height: 50px;
 
 			img{ margin: 10px 0 0 10px;}
-			
+
 			a{
 			display: block;
 			margin: 0;
@@ -158,7 +152,7 @@ h3, p, ul, ol, pre, dl {
 	}
 }
 
-#options li a.selected,  
+#options li a.selected,
 #options li a:hover{
 	background: #DB7611;
 }
@@ -220,7 +214,7 @@ h3, p, ul, ol, pre, dl {
 	padding: 0;
 	width: 100%;
 	margin: 0 auto;
-	margin-top: 20px; 
+	margin-top: 20px;
 	color: #666666;
 	text-shadow: 1px 1px #fff;
 }
@@ -230,7 +224,7 @@ h3, p, ul, ol, pre, dl {
 }
 
 @media screen and (max-width: 320px) {
-	#topwrapper { 
+	#topwrapper {
 		position: relative;
 		width: 395px;
 		height: 70px;
@@ -280,10 +274,10 @@ h3, p, ul, ol, pre, dl {
 	}
 	#container  {
 		width: 400px;
-		margin: 0 auto; } 
+		margin: 0 auto; }
 }
 @media screen and (min-width: 321px) {
-	#topwrapper { 
+	#topwrapper {
 		position: relative;
 		width: 395px;
 		height: 70px;
@@ -333,10 +327,10 @@ h3, p, ul, ol, pre, dl {
 	}
 	#container  {
 		width: 400px;
-		margin: 0 auto; } 
+		margin: 0 auto; }
 }
 @media screen and (min-width: 486px) {
-	#topwrapper { 
+	#topwrapper {
 		position: relative;
 		width: 395px;
 		height: 70px;
@@ -347,7 +341,7 @@ h3, p, ul, ol, pre, dl {
 		height: 50px;
 		background: url("/images/lillogo.png") no-repeat scroll center center #ffffff;
 	}
-	
+
 	#order{
 		left: 85px;
 	}
@@ -418,13 +412,13 @@ h3, p, ul, ol, pre, dl {
 	}
 	#container  {
 		width: 800px;
-		margin: 0 auto; } 
+		margin: 0 auto; }
 }
 @media screen and (min-width: 1200px) {
 	#topwrapper {
 		width: 1270px;
 	}
-	
+
 	#logo {
 		width: 65px;
 		height: 50px;
@@ -434,7 +428,7 @@ h3, p, ul, ol, pre, dl {
 		display: block;
 		visibility: visible;
 	}
-	
+
 	#order{
 		position: absolute;
 		top: 0;
@@ -501,16 +495,16 @@ h3, p, ul, ol, pre, dl {
 	}
 	#container  {
 		width: 1200px;
-		margin: 0 auto; 
-	} 
-} 
+		margin: 0 auto;
+	}
+}
 @media screen and (min-width: 1600px) {
-	#topwrapper { 
+	#topwrapper {
 	position: relative;
 	width: 1470px;
 	height: 70px;
 	margin: 0 auto;
-	
+
 	}
 	#logo {
 		width: 270px;
@@ -521,7 +515,7 @@ h3, p, ul, ol, pre, dl {
 		display: block;
 		visibility: visible;
 	}
-	
+
 	#order{
 		position: absolute;
 		top: 0;
@@ -588,8 +582,8 @@ h3, p, ul, ol, pre, dl {
 	}
 	#container  {
 		width: 1600px;
-		margin: 0 auto; 
-	} 
+		margin: 0 auto;
+	}
 }
 
 
@@ -602,7 +596,7 @@ h3, p, ul, ol, pre, dl {
 .homepage .item .minimise2 {
 	color: #FF8100;
 }
-.homepage .item h1, 
+.homepage .item h1,
 .homepage .item h2,
 .homepage .item h3{
 	text-align: center;
@@ -652,7 +646,7 @@ h3, p, ul, ol, pre, dl {
 	@include border-radius();
 }
 
-.item:hover .minimise .channel1,  
+.item:hover .minimise .channel1,
 .item:hover #amount{
 	margin-top: -205px;
 	-webkit-transform: rotate(-6deg);
@@ -681,7 +675,7 @@ h3, p, ul, ol, pre, dl {
 .homepage .item:hover .minimise2 {
 	width: 180px;
 	height: 95px;
-	margin-top: -15px;
+	margin-top: -19px;
 	opacity: 1;
 	color: #FFF;
 	overflow: hidden;
@@ -692,9 +686,9 @@ h3, p, ul, ol, pre, dl {
 }
 
 .homepage #amount {
-	position: absolute; 
-    top: 10px; 
-    right: 10px; 
+	position: absolute;
+    top: 10px;
+    right: 10px;
     width: 30px;
 	height: 27px;
 	padding-top: 3px;
@@ -702,7 +696,7 @@ h3, p, ul, ol, pre, dl {
 	text-shadow: none;
 	text-align: center;
 	color: #ffffff;
-	background: #3099f0; 
+	background: #3099f0;
  	@include border-radius(15px);
 }
 
@@ -725,18 +719,18 @@ h3, p, ul, ol, pre, dl {
 	border: none;
 	background: #3099F0;
 	@include border-radius(15px);
-	-webkit-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
-	   -moz-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
-	    -ms-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
-	     -o-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+	-webkit-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+	   -moz-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+	    -ms-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+	     -o-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
 	        transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
 }
 
 .homepage .minimise2 .launch:hover{
 	width: 100px;
-	opacity: 1;	
+	opacity: 1;
 }
- 
+
 .homepage .maximise .innermax .launch{
 	position: absolute;
 	top: 5px;
@@ -748,10 +742,10 @@ h3, p, ul, ol, pre, dl {
 	overflow: hidden;
 	border: none;
 	border-radius: 15px;
-	-webkit-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
-	   -moz-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
-	    -ms-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
-	     -o-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+	-webkit-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+	   -moz-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+	    -ms-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+	     -o-transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
 	        transition: all 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
 }
 
@@ -793,7 +787,7 @@ h3, p, ul, ol, pre, dl {
 	display: block;
 	margin: 20px auto;
 }
-.homepage .maximise .innermax .channel{	
+.homepage .maximise .innermax .channel{
  	padding: 5px;
  	border-radius: 5px;
  	border: 1px solid #fff;
@@ -808,13 +802,13 @@ h3, p, ul, ol, pre, dl {
 	text-shadow: 1px 1px #fff;
 }
 
-.homepage .maximise a, 
+.homepage .maximise a,
 .homepage .maximise .innermax a h2{
  	text-decoration: underline;
-	text-shadow: 1px 1px #fff;	
+	text-shadow: 1px 1px #fff;
 
 }
- 	
+
 .innermax {
 	position: relative;
 	width: 330px;
@@ -873,7 +867,7 @@ h3, p, ul, ol, pre, dl {
 .homepage .item:nth-child(4n) .minimise .channel1 {
 	padding: 0 100px 0 100px;
 	width: 180px;
-	height: 95px;	  
+	height: 95px;
 }
 
 .homepage .item:nth-child(4n) .minimise2 {
@@ -908,7 +902,7 @@ h3, p, ul, ol, pre, dl {
 	height: 95px;
 	@include transition(compact(margin-top 0.1s linear));
 	@include border-radius();
-		  
+
 }
 
 .homepage .item:nth-child(4n+1) .minimise2 {

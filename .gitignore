@@ -12,7 +12,11 @@ launchbored.sublime-workspace
 config/parameters.php
 vendor
 .DS_Store
-css/styles/.sass-cache/*
+css/styles/
 codekit-config.json
-.sass-cache/*
-css/styles/config.rb
+.DS_Store
+.sass-cache/
+_resources/
+.obi
+.obiignore
+.idea/
